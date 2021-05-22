@@ -15,11 +15,10 @@ export default {
 
   Container: styled.View`
     flex-direction: row;
-    height: 65px;
+    height: 70px;
     justify-content: space-between;
-    background-color: #5E7C5E;
     width: ${width}px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   `,
 }

@@ -3,13 +3,15 @@ import { View, Text } from 'react-native';
 
 import S from './styles';
 import Tab from './Tab';
+import { useTheme } from '../../contexts/ThemeProvider';
 
 const TabBar = ({state, navigation}) => {
+  const {theme} = useTheme();
   const [selected, setSelected] = useState('Home');
   const {routes} = state;
   
   // se a tab estiver selecionada
-  const renderColor = (currentTab) => currentTab === selected ? '#00000022' : null;
+  const renderColor = (currentTab) => currentTab === selected ? theme.nav.active : null;
 
   const handlePress = (activeTab, index) => {
     if(state.index !== index){
@@ -20,7 +22,7 @@ const TabBar = ({state, navigation}) => {
 
   return (
     <S.Wrapper>
-      <S.Container>
+      <S.Container style={{backgroundColor: theme.nav.backgroundColor}}>
         {
           routes.map((route, index) => (
             <Tab 

@@ -5,7 +5,6 @@ export default {
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #ECE6D2;
   `,
 
   AreaText: styled.Text`
