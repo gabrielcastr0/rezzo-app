@@ -7,4 +7,4 @@ const ThemeWrapper = ({children}) => {
   return children;
 }
 
-export default ThemeWrapper
+export default ThemeWrapper;

@@ -1,6 +1,6 @@
 import React, {createContext, useState, useContext, useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { defaultTheme, saoJoseTheme, } from '../helper/theme';
+import { defaultTheme, saoJoseTheme, nossaSenhoraTheme } from '../helper/theme';
 
 const ThemeContext = createContext();
 
@@ -11,10 +11,27 @@ const ThemeProvider = ({children}) => {
   const findOldTheme = async () => {
     const themeMode = await AsyncStorage.getItem('themeMode');
 
-    if(themeMode !== null){
-      themeMode === 'default' ? setTheme(defaultTheme) : setTheme(saoJoseTheme);
-      setIsLoadingTheme(false);
+    switch(themeMode){
+      case 'saoJose':
+        setTheme(saoJoseTheme);
+        setIsLoadingTheme(false);
+      break;
+
+      case 'nossaSenhora':
+        setTheme(nossaSenhoraTheme);
+        setIsLoadingTheme(false);
+      break;
+
+      default:
+        setTheme(defaultTheme);
+        setIsLoadingTheme(false);
+      break;
     }
+
+    // if(themeMode !== null){
+    //   themeMode === 'default' ? setTheme(defaultTheme) : setTheme(saoJoseTheme);
+    //   setIsLoadingTheme(false);
+    // }
 
     setIsLoadingTheme(false);
   }
@@ -23,9 +40,26 @@ const ThemeProvider = ({children}) => {
     findOldTheme();
   }, []);
 
-  const updateTheme = (currentThemeMode) => {
+  const updateTheme = (themeValue) => {
     // AsyncStorage.clear();
-    const newTheme = currentThemeMode === 'default' ? saoJoseTheme : defaultTheme;
+    // const newTheme = currentThemeMode === 'default' ? saoJoseTheme : defaultTheme;
+    
+    let newTheme = '';
+
+    switch(themeValue){
+      case 'saoJose':
+        newTheme = saoJoseTheme;
+      break;
+
+      case 'nossaSenhora':
+        newTheme = nossaSenhoraTheme;
+      break;
+
+      default:
+        newTheme = defaultTheme;
+      break;
+    }
+
     setTheme(newTheme);
     AsyncStorage.setItem('themeMode', newTheme.themeMode);
   }

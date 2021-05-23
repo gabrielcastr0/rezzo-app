@@ -1,8 +1,8 @@
 export const defaultTheme = {
-  backgroundColor: 'white',
-  textColor: 'red',
+  backgroundColor: '#7FBBDB',
+  textColor: '#fff',
   nav: {
-    backgroundColor: 'blue',
+    backgroundColor: '#3895c7',
     active: '#ffffff22',
   },
   themeMode: 'default'
@@ -16,4 +16,14 @@ export const saoJoseTheme = {
     active: '#ffffff22',
   },
   themeMode: 'saoJose'
+}
+
+export const nossaSenhoraTheme = {
+  backgroundColor: '#FFF0F3',
+  textColor: '#fff',
+  nav: {
+    backgroundColor: '#E17588',
+    active: '#ffffff22',
+  },
+  themeMode: 'nossaSenhora'
 }
