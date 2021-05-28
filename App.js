@@ -6,6 +6,7 @@ import TabNavigator from './src/stacks/TabNavigator';
 import ThemeProvider from './src/contexts/ThemeProvider';
 import ThemeWrapper from './src/components/ThemeWrapper';
 import CustomStatusBar from './src/components/CustomStatusBar';
+import MainStack from './src/stacks/MainStack';
 
 const App = () => {
   return(
@@ -13,7 +14,7 @@ const App = () => {
       <ThemeWrapper>
         <CustomStatusBar />
           <NavigationContainer>
-            <TabNavigator />
+            <MainStack />
           </NavigationContainer>
       </ThemeWrapper>
     </ThemeProvider>
