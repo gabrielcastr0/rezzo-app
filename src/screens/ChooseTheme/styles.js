@@ -15,10 +15,19 @@ export default {
   Title: styled.Text`
     font-size: 70px;
     color: #fff;
-    letter-spacing: 25px;
+    letter-spacing: 10px;
     position: absolute;
     font-weight: bold;
-    text-shadow: 10px 5px 5px #5E7C5E;
+    z-index: 1;
+  `,
+
+  TitleBack: styled.Text`
+    font-size: 85px;
+    color: #C0D7DC;
+    letter-spacing: 10px;
+    position: absolute;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #5E7C5E;
   `,
 
   BoxArea: styled.View`
@@ -32,7 +41,6 @@ export default {
     text-align: center;
     margin-top: 50px;
     text-transform: uppercase;
-
   `,
 
   CardAreaMain: styled.View`

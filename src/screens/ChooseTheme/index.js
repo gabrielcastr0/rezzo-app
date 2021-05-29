@@ -19,9 +19,10 @@ const ChooseTheme = ({navigation}) => {
 
   return (
     <S.Container>
-      <StatusBar backgroundColor='#C0D7DC'/>
+      {/* <StatusBar backgroundColor='#C0D7DC'/> */}
       <S.TitleArea>
         <S.Title>REZZO</S.Title>
+        <S.TitleBack>REZZO</S.TitleBack>
       </S.TitleArea>
 
       <S.BoxArea>
