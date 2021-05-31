@@ -8,6 +8,8 @@ import S from './styles';
 
 import iconSaoJose from '../../assets/iconSaoJose.png';
 import iconNossaSenhora from '../../assets/iconNossaSenhora.png';
+import iconAnjo from '../../assets/iconAnjo.png';
+import iconJesus from '../../assets/iconJesus.png';
 
 const ChooseTheme = ({navigation}) => {
   const {theme, updateTheme} = useTheme();
@@ -32,20 +34,28 @@ const ChooseTheme = ({navigation}) => {
       <S.CardAreaMain>
         <S.CardAreaSecond>
           <S.FirstCard>
-            <S.FirstCardBtn onPress={()=>{changeTheme('saoJose')}} activeOpacity={0.5}>
-              <S.FirstCardImg source={iconSaoJose}/>
-            </S.FirstCardBtn>
+            <S.CardBtn onPress={()=>{changeTheme('saoJose')}} activeOpacity={0.5}>
+              <S.CardImg source={iconSaoJose}/>
+            </S.CardBtn>
           </S.FirstCard>
 
           <S.SecondCard>
-            <S.FirstCardBtn onPress={()=>{changeTheme('nossaSenhora')}} activeOpacity={0.5}>
-              <S.FirstCardImg source={iconNossaSenhora}/>
-            </S.FirstCardBtn>
+            <S.CardBtn onPress={()=>{changeTheme('nossaSenhora')}} activeOpacity={0.5}>
+              <S.CardImg source={iconNossaSenhora}/>
+            </S.CardBtn>
           </S.SecondCard>
 
-          <S.ThirdCard></S.ThirdCard>
+          <S.ThirdCard>
+            <S.CardBtn onPress={()=>{changeTheme('santoAnjo')}} activeOpacity={0.5}>
+              <S.CardImg source={iconAnjo}/>
+            </S.CardBtn>
+          </S.ThirdCard>
 
-          <S.FourthCard></S.FourthCard>
+          <S.FourthCard>
+            <S.CardBtn onPress={()=>{changeTheme('jesus')}} activeOpacity={0.5}>
+              <S.CardImg source={iconJesus}/>
+            </S.CardBtn>
+          </S.FourthCard>
         </S.CardAreaSecond>
       </S.CardAreaMain>
     </S.Container>

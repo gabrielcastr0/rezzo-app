@@ -31,7 +31,8 @@ export default {
   `,
 
   BoxArea: styled.View`
-    flex: 1;
+    /* flex: 1; */
+    height: 100px;
   `,
 
   BoxTitle: styled.Text`
@@ -39,7 +40,8 @@ export default {
     letter-spacing: 2px;
     color: #5E7C5E;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    line-height: 140px;
     text-transform: uppercase;
   `,
 
@@ -67,16 +69,6 @@ export default {
     border-radius: 5px;
   `,
 
-  FirstCardBtn: styled.TouchableOpacity`
-    width: 110px;
-    height: 160px;
-  `,
-
-  FirstCardImg: styled.Image`
-    width: 110px;
-    height: 160px;
-  `,
-
   SecondCard: styled.View`
     width: 130px;
     height: 200px;
@@ -86,18 +78,8 @@ export default {
     border-radius: 5px;
   `,
 
-  SecondCardBtn: styled.TouchableOpacity`
-    width: 110px;
-    height: 160px;
-  `,
-
-  SecondCardImg: styled.Image`
-    width: 110px;
-    height: 160px;
-  `,
-
   ThirdCard: styled.View`
-    margin-top: 30px;
+    margin-top: 20px;
     width: 130px;
     height: 200px;
     border: 20px solid #ECE6D2;
@@ -107,12 +89,22 @@ export default {
   `,
 
   FourthCard: styled.View`
-    margin-top: 30px;
+    margin-top: 20px;
     width: 130px;
     height: 200px;
     border: 20px solid #ECE6D2;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+  `,
+
+  CardBtn: styled.TouchableOpacity`
+    width: 110px;
+    height: 160px;
+  `,
+
+  CardImg: styled.Image`
+    width: 110px;
+    height: 160px;
   `,
 }

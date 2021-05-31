@@ -1,6 +1,6 @@
 import React, {createContext, useState, useContext, useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { defaultTheme, saoJoseTheme, nossaSenhoraTheme } from '../helper/theme';
+import { defaultTheme, saoJoseTheme, nossaSenhoraTheme, santoAnjoTheme, jesusTheme } from '../helper/theme';
 
 const ThemeContext = createContext();
 
@@ -19,6 +19,16 @@ const ThemeProvider = ({children}) => {
 
       case 'nossaSenhora':
         setTheme(nossaSenhoraTheme);
+        setIsLoadingTheme(false);
+      break;
+
+      case 'santoAnjo':
+        setTheme(santoAnjoTheme);
+        setIsLoadingTheme(false);
+      break;
+
+      case 'jesus':
+        setTheme(jesusTheme);
         setIsLoadingTheme(false);
       break;
 
@@ -53,6 +63,14 @@ const ThemeProvider = ({children}) => {
 
       case 'nossaSenhora':
         newTheme = nossaSenhoraTheme;
+      break;
+
+      case 'santoAnjo':
+        newTheme = santoAnjoTheme;
+      break;
+
+      case 'jesus':
+        newTheme = jesusTheme;
       break;
 
       default:
