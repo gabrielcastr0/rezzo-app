@@ -1,31 +1,31 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useNavigation } from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 
 import S from './styles';
 
 const Preload = () => {
   const navigation = useNavigation();
 
-  useEffect(()=>{
+  useEffect(() => {
     const checkTheme = async () => {
       const themeMode = await AsyncStorage.getItem('themeMode');
 
-      if(themeMode){
+      if (themeMode) {
         navigation.navigate('TabNavigator');
-      }else{
+      } else {
         navigation.navigate('ChooseTheme');
       }
-    }
+    };
 
     checkTheme();
-  }, [])
+  }, [navigation]);
 
   return (
     <S.Container>
-      <S.LoadingIcon size="large" color="#96cdd9"></S.LoadingIcon>
+      <S.LoadingIcon size="large" color="#96cdd9" />
     </S.Container>
-  )
-}
+  );
+};
 
 export default Preload;

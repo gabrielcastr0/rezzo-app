@@ -1,6 +1,6 @@
 import React from 'react';
 import S from './styles';
-import { useTheme } from '../../contexts/ThemeProvider';
+import {useTheme} from '../../contexts/ThemeProvider';
 import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
       <CustomBackgroundImage />
       <S.AreaText style={{color: theme.textColor}}>Tela de Sobre</S.AreaText>
     </S.Container>
-  )
-}
+  );
+};
 
 export default About;

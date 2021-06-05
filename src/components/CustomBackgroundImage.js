@@ -1,6 +1,6 @@
 import React from 'react';
-import { useTheme } from '../contexts/ThemeProvider';
-import { View, Image, Dimensions } from 'react-native';
+import {useTheme} from '../contexts/ThemeProvider';
+import {View, Image, Dimensions} from 'react-native';
 
 import lirioSaoJose from '../assets/lirioSaoJose.png';
 import florImg from '../assets/florImg.png';
@@ -11,26 +11,26 @@ const {width} = Dimensions.get('window');
 const {height} = Dimensions.get('window');
 
 const CustomBackgroundImage = () => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
 
   let imgBackground = '';
 
-  switch(theme.themeMode){
+  switch (theme.themeMode) {
     case 'saoJose':
       imgBackground = lirioSaoJose;
-    break;
+      break;
 
     case 'nossaSenhora':
       imgBackground = florImg;
-    break;
+      break;
 
     case 'santoAnjo':
       imgBackground = nuvemImg;
-    break;
+      break;
 
     case 'jesus':
       imgBackground = comunhaoImg;
-    break;
+      break;
 
     default:
       imgBackground = null;
@@ -38,9 +38,9 @@ const CustomBackgroundImage = () => {
 
   return (
     <View>
-      <Image source={imgBackground} style={{ width, height }}/>
+      <Image source={imgBackground} style={{width, height}} />
     </View>
-  )
-}
+  );
+};
 
 export default CustomBackgroundImage;

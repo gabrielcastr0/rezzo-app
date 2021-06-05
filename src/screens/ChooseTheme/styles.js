@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 export default {
   Container: styled.View`
     flex: 1;
-    background-color: #C0D7DC;
+    background-color: #c0d7dc;
   `,
 
   TitleArea: styled.View`
@@ -23,11 +23,11 @@ export default {
 
   TitleBack: styled.Text`
     font-size: 85px;
-    color: #C0D7DC;
+    color: #c0d7dc;
     letter-spacing: 10px;
     position: absolute;
     font-weight: bold;
-    text-shadow: 0px 0px 20px #5E7C5E;
+    text-shadow: 0px 0px 20px #5e7c5e;
   `,
 
   BoxArea: styled.View`
@@ -38,7 +38,7 @@ export default {
   BoxTitle: styled.Text`
     font-size: 20px;
     letter-spacing: 2px;
-    color: #5E7C5E;
+    color: #5e7c5e;
     text-align: center;
     /* margin-top: 50px; */
     line-height: 140px;
@@ -46,7 +46,7 @@ export default {
   `,
 
   CardAreaMain: styled.View`
-    align-items: center;  
+    align-items: center;
     justify-content: center;
     height: 460px;
   `,
@@ -63,7 +63,7 @@ export default {
   FirstCard: styled.View`
     width: 130px;
     height: 200px;
-    border: 20px solid #ECE6D2;
+    border: 20px solid #ece6d2;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -72,7 +72,7 @@ export default {
   SecondCard: styled.View`
     width: 130px;
     height: 200px;
-    border: 20px solid #ECE6D2;
+    border: 20px solid #ece6d2;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -82,7 +82,7 @@ export default {
     margin-top: 20px;
     width: 130px;
     height: 200px;
-    border: 20px solid #ECE6D2;
+    border: 20px solid #ece6d2;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -92,7 +92,7 @@ export default {
     margin-top: 20px;
     width: 130px;
     height: 200px;
-    border: 20px solid #ECE6D2;
+    border: 20px solid #ece6d2;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -107,4 +107,4 @@ export default {
     width: 110px;
     height: 160px;
   `,
-}
+};

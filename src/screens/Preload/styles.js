@@ -1,12 +1,12 @@
 import styled from 'styled-components/native';
 
-export default{
+export default {
   Container: styled.View`
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: #C0D7DC;
+    background-color: #c0d7dc;
   `,
 
   LoadingIcon: styled.ActivityIndicator``,
-}
+};

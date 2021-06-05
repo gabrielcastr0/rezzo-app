@@ -12,4 +12,4 @@ export default {
     font-weight: bold;
     position: absolute;
   `,
-}
+};

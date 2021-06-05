@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, Text, Button, Image } from 'react-native';
 
-import { useTheme } from '../../contexts/ThemeProvider';
+import {useTheme} from '../../contexts/ThemeProvider';
 import S from './styles';
 
 import iconSaoJose from '../../assets/iconSaoJose.png';
@@ -12,7 +11,7 @@ import iconJesus from '../../assets/iconJesus.png';
 const ChooseTheme = ({navigation}) => {
   const {updateTheme} = useTheme();
 
-  const changeTheme = (themeValue) => {
+  const changeTheme = themeValue => {
     updateTheme(themeValue);
     navigation.navigate('TabNavigator');
   };
@@ -31,33 +30,48 @@ const ChooseTheme = ({navigation}) => {
       <S.CardAreaMain>
         <S.CardAreaSecond>
           <S.FirstCard>
-            <S.CardBtn onPress={()=>{changeTheme('saoJose')}} activeOpacity={0.5}>
-              <S.CardImg source={iconSaoJose}/>
+            <S.CardBtn
+              onPress={() => {
+                changeTheme('saoJose');
+              }}
+              activeOpacity={0.5}>
+              <S.CardImg source={iconSaoJose} />
             </S.CardBtn>
           </S.FirstCard>
 
           <S.SecondCard>
-            <S.CardBtn onPress={()=>{changeTheme('nossaSenhora')}} activeOpacity={0.5}>
-              <S.CardImg source={iconNossaSenhora}/>
+            <S.CardBtn
+              onPress={() => {
+                changeTheme('nossaSenhora');
+              }}
+              activeOpacity={0.5}>
+              <S.CardImg source={iconNossaSenhora} />
             </S.CardBtn>
           </S.SecondCard>
 
           <S.ThirdCard>
-            <S.CardBtn onPress={()=>{changeTheme('santoAnjo')}} activeOpacity={0.5}>
-              <S.CardImg source={iconAnjo}/>
+            <S.CardBtn
+              onPress={() => {
+                changeTheme('santoAnjo');
+              }}
+              activeOpacity={0.5}>
+              <S.CardImg source={iconAnjo} />
             </S.CardBtn>
           </S.ThirdCard>
 
           <S.FourthCard>
-            <S.CardBtn onPress={()=>{changeTheme('jesus')}} activeOpacity={0.5}>
-              <S.CardImg source={iconJesus}/>
+            <S.CardBtn
+              onPress={() => {
+                changeTheme('jesus');
+              }}
+              activeOpacity={0.5}>
+              <S.CardImg source={iconJesus} />
             </S.CardBtn>
           </S.FourthCard>
         </S.CardAreaSecond>
       </S.CardAreaMain>
     </S.Container>
-  )
-}
+  );
+};
 
 export default ChooseTheme;
-
