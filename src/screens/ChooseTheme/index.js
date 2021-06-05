@@ -10,7 +10,7 @@ import iconAnjo from '../../assets/iconAnjo.png';
 import iconJesus from '../../assets/iconJesus.png';
 
 const ChooseTheme = ({navigation}) => {
-  const {theme, updateTheme} = useTheme();
+  const {updateTheme} = useTheme();
 
   const changeTheme = (themeValue) => {
     updateTheme(themeValue);

@@ -10,5 +10,6 @@ export default {
   AreaText: styled.Text`
     font-size: 20px;
     font-weight: bold;
+    position: absolute;
   `,
 }

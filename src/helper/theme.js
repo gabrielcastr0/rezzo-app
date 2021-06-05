@@ -13,10 +13,10 @@ export const defaultTheme = {
 }
 
 export const saoJoseTheme = {
-  backgroundColor: '#ECE6D2',
+  backgroundColor: '#E7BD7C',
   textColor: '#5E7C5E',
   header: {
-    backgroundColor: '#ECE6D2',
+    backgroundColor: '#E7BD7C',
     borderColor: '#5E7C5E'
   },
   nav: {

@@ -2,9 +2,9 @@ import React from 'react';
 import { Button } from 'react-native';
 import { useTheme } from '../../contexts/ThemeProvider';
 import { useNavigation } from '@react-navigation/native';
+import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 
 import S from './styles';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Config = () => {
   const { theme } = useTheme();
@@ -16,8 +16,12 @@ const Config = () => {
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
-      <S.AreaText style={{color: theme.textColor}}>Tela de Configuração</S.AreaText>
-      <Button title="Resetar configurações" onPress={resetTheme}/>
+      <CustomBackgroundImage/>
+      <S.BoxButton>
+        <S.ButtonReset style={{backgroundColor: theme.textColor}} onPress={resetTheme}>
+          <S.ButtonText style={{color: theme.backgroundColor}}>Resetar Configurações</S.ButtonText>
+        </S.ButtonReset>
+      </S.BoxButton>
     </S.Container>
   )
 }
