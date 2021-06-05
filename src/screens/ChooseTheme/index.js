@@ -2,8 +2,6 @@ import React from 'react';
 import { View, Text, Button, Image } from 'react-native';
 
 import { useTheme } from '../../contexts/ThemeProvider';
-import { StatusBar } from 'react-native';
-
 import S from './styles';
 
 import iconSaoJose from '../../assets/iconSaoJose.png';
@@ -21,7 +19,6 @@ const ChooseTheme = ({navigation}) => {
 
   return (
     <S.Container>
-      {/* <StatusBar backgroundColor='#C0D7DC'/> */}
       <S.TitleArea>
         <S.Title>REZZO</S.Title>
         <S.TitleBack>REZZO</S.TitleBack>

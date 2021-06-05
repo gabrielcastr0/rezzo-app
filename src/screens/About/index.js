@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
-      <S.AreaText style={{color: theme.textColor}}>AboutTab</S.AreaText>
+      <S.AreaText style={{color: theme.textColor}}>Tela de Sobre</S.AreaText>
     </S.Container>
   )
 }

@@ -5,17 +5,11 @@ import { useTheme } from '../../contexts/ThemeProvider';
 import { Button } from 'react-native';
 
 const Home = () => {
-  const {theme, updateTheme} = useTheme();
-
-  const changeTheme = (themeValue) => {
-    updateTheme(themeValue);
-  };
+  const { theme } = useTheme();
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
-      <S.AreaText style={{color: theme.textColor}}>HomeTab</S.AreaText>
-      {/* <Button title='Seleciona o tema verde' onPress={()=>{changeTheme('saoJose')}} color={theme.nav.backgroundColor}/>
-      <Button title='Seleciona o tema rosa' onPress={()=>{changeTheme('nossaSenhora')}} color={theme.nav.backgroundColor}/> */}
+      <S.AreaText style={{color: theme.textColor}}>Tela Inicial</S.AreaText>
     </S.Container>
   )
 }

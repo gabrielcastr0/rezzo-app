@@ -13,7 +13,7 @@ const TabNavigator = () => {
   return (
     <Tab.Navigator tabBar={(props) => <CustomTabBar {...props} />}>
       <Tab.Screen name="Home" component={Home} initialParams={{icon: 'home'}}/>
-      <Tab.Screen name="About" component={About} initialParams={{icon: 'home'}}/>
+      <Tab.Screen name="About" component={About} initialParams={{icon: 'star'}}/>
       <Tab.Screen name="Config" component={Config} initialParams={{icon: 'gear'}}/>
     </Tab.Navigator>
   )

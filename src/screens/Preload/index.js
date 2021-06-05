@@ -1,12 +1,8 @@
 import React, { useEffect } from 'react';
-import { View, Text } from 'react-native';
-
-import S from './styles';
-
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 
-import ChooseTheme from '../ChooseTheme';
+import S from './styles';
 
 const Preload = () => {
   const navigation = useNavigation();
