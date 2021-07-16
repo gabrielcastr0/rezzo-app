@@ -9,7 +9,10 @@ const About = () => {
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
       <CustomBackgroundImage />
-      <S.AreaText style={{color: theme.textColor}}>Tela de Sobre</S.AreaText>
+      <S.AreaBox>
+        <S.AreaBoxTitle />
+        <S.AreaBoxBody />
+      </S.AreaBox>
     </S.Container>
   );
 };

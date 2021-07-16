@@ -58,7 +58,51 @@ const Home = () => {
   }, []);
 
   const DateActual = new Date();
-  console.log(DateActual);
+  let todayDate = DateActual.getDate();
+  let actualMonth = DateActual.getMonth();
+
+  // converting months number to string
+  switch (actualMonth) {
+    case 0:
+      actualMonth = 'JANEIRO';
+      break;
+    case 1:
+      actualMonth = 'FEVEREIRO';
+      break;
+    case 2:
+      actualMonth = 'MARÇO';
+      break;
+    case 3:
+      actualMonth = 'ABRIL';
+      break;
+    case 4:
+      actualMonth = 'MAIO';
+      break;
+    case 5:
+      actualMonth = 'JUNHO';
+      break;
+    case 6:
+      actualMonth = 'JULHO';
+      break;
+    case 7:
+      actualMonth = 'AGOSTO';
+      break;
+    case 6:
+      actualMonth = 'SETEMBRO';
+      break;
+    case 7:
+      actualMonth = 'OUTUBRO';
+      break;
+    case 8:
+      actualMonth = 'NOVEMBRO';
+      break;
+    case 9:
+      actualMonth = 'DEZEMBRO';
+      break;
+    default:
+      actualMonth = '?';
+      break;
+  }
 
   const modalizeRef = useRef(null);
 
@@ -112,7 +156,7 @@ const Home = () => {
         HeaderComponent={
           <S.ModalizeHeaderView>
             <S.ModalizeHeaderText style={{color: theme.textColor}}>
-              day + month
+              {todayDate} de {actualMonth}
             </S.ModalizeHeaderText>
           </S.ModalizeHeaderView>
         }>
