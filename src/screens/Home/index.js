@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
 import CustomBackgroundImage from '../../components/CustomBackgroundImage';
@@ -53,13 +53,14 @@ LocaleConfig.defaultLocale = 'pt_br';
 const Home = () => {
   const {theme} = useTheme();
 
-  useEffect(() => {
-    modalizeRef.current?.open();
-  }, []);
+  // open modalize when open home tab
+  // useEffect(() => {
+  //   modalizeRef.current?.open();
+  // }, []);
 
   const DateActual = new Date();
-  let todayDate = DateActual.getDate();
-  let actualMonth = DateActual.getMonth();
+  let [todayDate, setTodayDate] = useState(DateActual.getDate());
+  let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
 
   // converting months number to string
   switch (actualMonth) {
@@ -87,16 +88,16 @@ const Home = () => {
     case 7:
       actualMonth = 'AGOSTO';
       break;
-    case 6:
+    case 8:
       actualMonth = 'SETEMBRO';
       break;
-    case 7:
+    case 9:
       actualMonth = 'OUTUBRO';
       break;
-    case 8:
+    case 10:
       actualMonth = 'NOVEMBRO';
       break;
-    case 9:
+    case 11:
       actualMonth = 'DEZEMBRO';
       break;
     default:
@@ -106,8 +107,9 @@ const Home = () => {
 
   const modalizeRef = useRef(null);
 
-  const onOpen = day => {
-    console.log(day.day);
+  const onOpen = item => {
+    setTodayDate(item.day);
+    setActualMonth(item.month - 1);
     modalizeRef.current?.open();
   };
 
@@ -150,9 +152,10 @@ const Home = () => {
       <CustomBackgroundImage />
 
       <Modalize
+        handlePosition="inside"
         ref={modalizeRef}
         snapPoint={300}
-        modalHeight={500}
+        modalHeight={800}
         HeaderComponent={
           <S.ModalizeHeaderView>
             <S.ModalizeHeaderText style={{color: theme.textColor}}>

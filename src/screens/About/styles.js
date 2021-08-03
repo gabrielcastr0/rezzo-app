@@ -3,15 +3,14 @@ import styled from 'styled-components/native';
 export default {
   Container: styled.View`
     flex: 1;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: center;
   `,
 
   AreaBox: styled.View`
-    margin-top: 50px;
     position: absolute;
-    height: 500px;
-    width: 325px;
+    height: 560px;
+    width: 326px;
     align-items: center;
   `,
 
@@ -20,6 +19,13 @@ export default {
     background-color: #fff;
     height: 32px;
     width: 256px;
+    justify-content: center;
+    align-items: center;
+  `,
+
+  TextTitle: styled.Text`
+    color: #000;
+    font-size: 20px;
   `,
 
   AreaBoxBody: styled.View`
@@ -28,5 +34,12 @@ export default {
     height: 452px;
     width: 326px;
     background-color: #65af89;
+    align-items: center;
+  `,
+
+  TextBody: styled.Text`
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
   `,
 };
