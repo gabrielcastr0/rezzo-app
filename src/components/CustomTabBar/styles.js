@@ -20,4 +20,10 @@ export default {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   `,
+
+  TabItem: styled.TouchableOpacity`
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  `,
 };
