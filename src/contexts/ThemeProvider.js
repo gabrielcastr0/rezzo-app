@@ -44,11 +44,6 @@ const ThemeProvider = ({children}) => {
         break;
     }
 
-    // if(themeMode !== null){
-    //   themeMode === 'default' ? setTheme(defaultTheme) : setTheme(saoJoseTheme);
-    //   setIsLoadingTheme(false);
-    // }
-
     setIsLoadingTheme(false);
   };
 
@@ -58,7 +53,6 @@ const ThemeProvider = ({children}) => {
 
   const updateTheme = themeValue => {
     // AsyncStorage.clear();
-    // const newTheme = currentThemeMode === 'default' ? saoJoseTheme : defaultTheme;
 
     let newTheme = '';
 

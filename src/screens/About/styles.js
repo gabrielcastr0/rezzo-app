@@ -53,4 +53,10 @@ export default {
     color: #fff;
     font-size: 20px;
   `,
+
+  LoadingArea: styled.View`
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  `,
 };

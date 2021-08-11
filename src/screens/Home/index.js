@@ -1,11 +1,11 @@
-import React, {useRef, useEffect, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
 import CustomBackgroundImage from '../../components/CustomBackgroundImage';
-import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
+import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 LocaleConfig.locales.pt_br = {
   monthNames: [
