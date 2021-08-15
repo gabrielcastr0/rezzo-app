@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {Modal, Text} from 'react-native';
 
 import {useTheme} from '../../contexts/ThemeProvider';
 import S from './styles';
 
-import iconSaoJose from '../../assets/iconSaoJose.png';
-import iconNossaSenhora from '../../assets/iconNossaSenhora.png';
-import iconAnjo from '../../assets/iconAnjo.png';
-import iconJesus from '../../assets/iconJesus.png';
+import BackgroundSaoJose from '../../assets/backgroundSaoJose.svg';
+import BackgroundNossaSenhora from '../../assets/backgroundNossaSenhora.svg';
+import BackgroundSantoAnjo from '../../assets/backgroundSantoAnjo.svg';
+import BackgroundJesus from '../../assets/backgroundJesus.svg';
 
 const ChooseTheme = ({navigation}) => {
   const {updateTheme} = useTheme();
+  const [modalVisible, setModalVisible] = useState(false);
+  const [selectedTheme, setSelectedTheme] = useState('');
+  const [theme, setTheme] = useState('');
 
   const changeTheme = themeValue => {
     updateTheme(themeValue);
@@ -18,6 +22,32 @@ const ChooseTheme = ({navigation}) => {
 
   return (
     <S.Container>
+      <Modal
+        visible={modalVisible}
+        animationType="fade"
+        transparent={true}
+        onRequestClose={() => setModalVisible(false)}>
+        <S.Box>
+          <S.BoxBody />
+
+          <Text style={{marginRight: 20, position: 'absolute', bottom: 301}}>
+            {selectedTheme}
+          </Text>
+          <S.AreaQuestion>
+            <S.AreaQText>Deseja escolher esta interface?</S.AreaQText>
+          </S.AreaQuestion>
+
+          <S.AreaBtn>
+            <S.BtnYes onPress={() => changeTheme(theme)}>
+              <S.BtnText>Sim</S.BtnText>
+            </S.BtnYes>
+            <S.BtnNo onPress={() => setModalVisible(false)}>
+              <S.BtnText>Não</S.BtnText>
+            </S.BtnNo>
+          </S.AreaBtn>
+        </S.Box>
+      </Modal>
+
       <S.TitleArea>
         <S.Title>REZZO</S.Title>
         <S.TitleBack>REZZO</S.TitleBack>
@@ -32,40 +62,54 @@ const ChooseTheme = ({navigation}) => {
           <S.FirstCard>
             <S.CardBtn
               onPress={() => {
-                changeTheme('saoJose');
+                setSelectedTheme(
+                  <BackgroundSaoJose width="175" height="310" />,
+                );
+                setTheme('saoJose');
+                setModalVisible(true);
               }}
               activeOpacity={0.5}>
-              <S.CardImg source={iconSaoJose} />
+              <BackgroundSaoJose width="110" height="170" />
             </S.CardBtn>
           </S.FirstCard>
 
           <S.SecondCard>
             <S.CardBtn
               onPress={() => {
-                changeTheme('nossaSenhora');
+                setSelectedTheme(
+                  <BackgroundNossaSenhora width="175" height="310" />,
+                );
+                setTheme('nossaSenhora');
+                setModalVisible(true);
               }}
               activeOpacity={0.5}>
-              <S.CardImg source={iconNossaSenhora} />
+              <BackgroundNossaSenhora width="110" height="170" />
             </S.CardBtn>
           </S.SecondCard>
 
           <S.ThirdCard>
             <S.CardBtn
               onPress={() => {
-                changeTheme('santoAnjo');
+                setSelectedTheme(
+                  <BackgroundSantoAnjo width="175" height="310" />,
+                );
+                setTheme('santoAnjo');
+                setModalVisible(true);
               }}
               activeOpacity={0.5}>
-              <S.CardImg source={iconAnjo} />
+              <BackgroundSantoAnjo width="110" height="170" />
             </S.CardBtn>
           </S.ThirdCard>
 
           <S.FourthCard>
             <S.CardBtn
               onPress={() => {
-                changeTheme('jesus');
+                setSelectedTheme(<BackgroundJesus width="175" height="310" />);
+                setTheme('jesus');
+                setModalVisible(true);
               }}
               activeOpacity={0.5}>
-              <S.CardImg source={iconJesus} />
+              <BackgroundJesus width="110" height="170" />
             </S.CardBtn>
           </S.FourthCard>
         </S.CardAreaSecond>

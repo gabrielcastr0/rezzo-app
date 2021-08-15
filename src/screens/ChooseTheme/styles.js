@@ -32,7 +32,7 @@ export default {
 
   BoxArea: styled.View`
     /* flex: 1; */
-    height: 100px;
+    height: 80px;
   `,
 
   BoxTitle: styled.Text`
@@ -41,7 +41,7 @@ export default {
     color: #5e7c5e;
     text-align: center;
     /* margin-top: 50px; */
-    line-height: 140px;
+    line-height: 80px;
     text-transform: uppercase;
   `,
 
@@ -101,10 +101,91 @@ export default {
   CardBtn: styled.TouchableOpacity`
     width: 110px;
     height: 160px;
+    justify-content: center;
+    align-items: center;
   `,
 
   CardImg: styled.Image`
     width: 110px;
     height: 160px;
+  `,
+
+  /* MODAL */
+
+  Box: styled.View`
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  `,
+
+  BoxBody: styled.View`
+    height: 350px;
+    width: 210px;
+    background-color: #ffffff;
+    border: 20px solid #ece6d2;
+    border-radius: 5px;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+  `,
+
+  AreaBtn: styled.View`
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -140px; */
+    height: 30px;
+    width: 170px;
+  `,
+
+  BtnYes: styled.TouchableOpacity`
+    height: 30px;
+    width: 60px;
+    background-color: #57e1a9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  `,
+
+  BtnNo: styled.TouchableOpacity`
+    height: 30px;
+    width: 60px;
+    background-color: #fc7184;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  `,
+
+  BtnText: styled.Text`
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  `,
+
+  AreaQuestion: styled.View`
+    margin-top: 10px;
+    width: 210px;
+    height: 70px;
+    background-color: #ece6d2;
+    /* position: absolute;
+    /* left: 0;
+    right: 0;
+    bottom: -100px; */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  `,
+
+  AreaQText: styled.Text`
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
   `,
 };

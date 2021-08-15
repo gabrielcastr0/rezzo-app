@@ -118,9 +118,7 @@ const Home = () => {
       <Calendar
         enableSwipeMonths={true}
         onDayPress={onOpen}
-        // Specify style for calendar container element. Default = {}
         style={{}}
-        // Specify theme properties to override specific styles for calendar parts. Default = {}
         theme={{
           backgroundColor: '#000000',
           calendarBackground: '#00000011',
@@ -149,6 +147,7 @@ const Home = () => {
           textDayHeaderFontSize: 30,
         }}
       />
+
       <CustomBackgroundImage />
 
       <Modalize

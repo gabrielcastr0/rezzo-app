@@ -1,0 +1,748 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="375" height="667" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.292" x2="0.5" y2="1.93" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#2c3a58"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ca88c" stop-opacity="0.922"/>
+      <stop offset="0.831" stop-color="#3eb589"/>
+      <stop offset="1" stop-color="#30cd9c"/>
+    </linearGradient>
+    <filter id="Path_81" x="6" y="155" width="363" height="774.09" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="20.779" y="169.774" width="336" height="336" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-WallpaperSãoJosé_">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="WallpaperSãoJosé_" data-name="WallpaperSãoJosé " clip-path="url(#clip-WallpaperSãoJosé_)">
+    <rect width="375" height="667" fill="#fff"/>
+    <rect id="background" width="375" height="667" fill="#e7bd7c"/>
+    <g id="lírioSãoJosé" clip-path="url(#clip-path)">
+      <g id="lírioSãoJosé-2" data-name="lírioSãoJosé">
+        <path id="Path_16" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-3" data-name="lírioSãoJosé" transform="translate(51)">
+        <path id="Path_16-2" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-2" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-2" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-2" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-2" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-4" data-name="lírioSãoJosé" transform="translate(102)">
+        <path id="Path_16-3" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-3" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-3" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-3" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-3" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-5" data-name="lírioSãoJosé" transform="translate(153)">
+        <path id="Path_16-4" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-4" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-4" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-4" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-4" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-6" data-name="lírioSãoJosé" transform="translate(204)">
+        <path id="Path_16-5" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-5" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-5" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-5" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-5" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-7" data-name="lírioSãoJosé" transform="translate(255)">
+        <path id="Path_16-6" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-6" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-6" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-6" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-6" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-8" data-name="lírioSãoJosé" transform="translate(306)">
+        <path id="Path_16-7" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-7" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-7" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-7" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-7" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-9" data-name="lírioSãoJosé" transform="translate(357)">
+        <path id="Path_16-8" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-8" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-8" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-8" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-8" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-10" data-name="lírioSãoJosé" transform="translate(0 75)">
+        <path id="Path_16-9" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-9" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-9" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-9" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-9" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-11" data-name="lírioSãoJosé" transform="translate(51 75)">
+        <path id="Path_16-10" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-10" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-10" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-10" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-10" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-12" data-name="lírioSãoJosé" transform="translate(102 75)">
+        <path id="Path_16-11" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-11" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-11" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-11" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-11" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-13" data-name="lírioSãoJosé" transform="translate(153 75)">
+        <path id="Path_16-12" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-12" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-12" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-12" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-12" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-14" data-name="lírioSãoJosé" transform="translate(204 75)">
+        <path id="Path_16-13" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-13" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-13" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-13" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-13" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-15" data-name="lírioSãoJosé" transform="translate(255 75)">
+        <path id="Path_16-14" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-14" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-14" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-14" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-14" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-16" data-name="lírioSãoJosé" transform="translate(306 75)">
+        <path id="Path_16-15" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-15" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-15" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-15" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-15" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-17" data-name="lírioSãoJosé" transform="translate(357 75)">
+        <path id="Path_16-16" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-16" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-16" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-16" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-16" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-18" data-name="lírioSãoJosé" transform="translate(0 150)">
+        <path id="Path_16-17" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-17" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-17" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-17" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-17" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-19" data-name="lírioSãoJosé" transform="translate(51 150)">
+        <path id="Path_16-18" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-18" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-18" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-18" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-18" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-20" data-name="lírioSãoJosé" transform="translate(102 150)">
+        <path id="Path_16-19" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-19" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-19" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-19" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-19" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-21" data-name="lírioSãoJosé" transform="translate(153 150)">
+        <path id="Path_16-20" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-20" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-20" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-20" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-20" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-22" data-name="lírioSãoJosé" transform="translate(204 150)">
+        <path id="Path_16-21" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-21" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-21" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-21" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-21" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-23" data-name="lírioSãoJosé" transform="translate(255 150)">
+        <path id="Path_16-22" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-22" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-22" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-22" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-22" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-24" data-name="lírioSãoJosé" transform="translate(306 150)">
+        <path id="Path_16-23" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-23" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-23" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-23" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-23" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-25" data-name="lírioSãoJosé" transform="translate(357 150)">
+        <path id="Path_16-24" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-24" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-24" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-24" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-24" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-26" data-name="lírioSãoJosé" transform="translate(0 225)">
+        <path id="Path_16-25" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-25" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-25" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-25" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-25" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-27" data-name="lírioSãoJosé" transform="translate(51 225)">
+        <path id="Path_16-26" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-26" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-26" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-26" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-26" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-28" data-name="lírioSãoJosé" transform="translate(102 225)">
+        <path id="Path_16-27" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-27" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-27" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-27" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-27" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-29" data-name="lírioSãoJosé" transform="translate(153 225)">
+        <path id="Path_16-28" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-28" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-28" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-28" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-28" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-30" data-name="lírioSãoJosé" transform="translate(204 225)">
+        <path id="Path_16-29" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-29" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-29" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-29" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-29" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-31" data-name="lírioSãoJosé" transform="translate(255 225)">
+        <path id="Path_16-30" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-30" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-30" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-30" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-30" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-32" data-name="lírioSãoJosé" transform="translate(306 225)">
+        <path id="Path_16-31" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-31" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-31" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-31" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-31" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-33" data-name="lírioSãoJosé" transform="translate(357 225)">
+        <path id="Path_16-32" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-32" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-32" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-32" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-32" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-34" data-name="lírioSãoJosé" transform="translate(0 300)">
+        <path id="Path_16-33" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-33" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-33" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-33" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-33" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-35" data-name="lírioSãoJosé" transform="translate(51 300)">
+        <path id="Path_16-34" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-34" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-34" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-34" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-34" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-36" data-name="lírioSãoJosé" transform="translate(102 300)">
+        <path id="Path_16-35" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-35" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-35" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-35" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-35" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-37" data-name="lírioSãoJosé" transform="translate(153 300)">
+        <path id="Path_16-36" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-36" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-36" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-36" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-36" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-38" data-name="lírioSãoJosé" transform="translate(204 300)">
+        <path id="Path_16-37" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-37" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-37" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-37" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-37" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-39" data-name="lírioSãoJosé" transform="translate(255 300)">
+        <path id="Path_16-38" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-38" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-38" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-38" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-38" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-40" data-name="lírioSãoJosé" transform="translate(306 300)">
+        <path id="Path_16-39" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-39" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-39" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-39" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-39" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-41" data-name="lírioSãoJosé" transform="translate(357 300)">
+        <path id="Path_16-40" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-40" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-40" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-40" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-40" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-42" data-name="lírioSãoJosé" transform="translate(0 375)">
+        <path id="Path_16-41" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-41" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-41" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-41" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-41" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-43" data-name="lírioSãoJosé" transform="translate(51 375)">
+        <path id="Path_16-42" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-42" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-42" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-42" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-42" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-44" data-name="lírioSãoJosé" transform="translate(102 375)">
+        <path id="Path_16-43" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-43" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-43" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-43" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-43" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-45" data-name="lírioSãoJosé" transform="translate(153 375)">
+        <path id="Path_16-44" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-44" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-44" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-44" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-44" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-46" data-name="lírioSãoJosé" transform="translate(204 375)">
+        <path id="Path_16-45" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-45" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-45" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-45" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-45" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-47" data-name="lírioSãoJosé" transform="translate(255 375)">
+        <path id="Path_16-46" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-46" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-46" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-46" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-46" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-48" data-name="lírioSãoJosé" transform="translate(306 375)">
+        <path id="Path_16-47" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-47" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-47" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-47" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-47" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-49" data-name="lírioSãoJosé" transform="translate(357 375)">
+        <path id="Path_16-48" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-48" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-48" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-48" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-48" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-50" data-name="lírioSãoJosé" transform="translate(0 450)">
+        <path id="Path_16-49" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-49" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-49" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-49" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-49" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-51" data-name="lírioSãoJosé" transform="translate(51 450)">
+        <path id="Path_16-50" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-50" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-50" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-50" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-50" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-52" data-name="lírioSãoJosé" transform="translate(102 450)">
+        <path id="Path_16-51" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-51" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-51" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-51" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-51" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-53" data-name="lírioSãoJosé" transform="translate(153 450)">
+        <path id="Path_16-52" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-52" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-52" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-52" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-52" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-54" data-name="lírioSãoJosé" transform="translate(204 450)">
+        <path id="Path_16-53" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-53" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-53" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-53" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-53" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-55" data-name="lírioSãoJosé" transform="translate(255 450)">
+        <path id="Path_16-54" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-54" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-54" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-54" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-54" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-56" data-name="lírioSãoJosé" transform="translate(306 450)">
+        <path id="Path_16-55" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-55" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-55" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-55" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-55" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-57" data-name="lírioSãoJosé" transform="translate(357 450)">
+        <path id="Path_16-56" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-56" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-56" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-56" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-56" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-58" data-name="lírioSãoJosé" transform="translate(0 525)">
+        <path id="Path_16-57" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-57" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-57" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-57" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-57" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-59" data-name="lírioSãoJosé" transform="translate(51 525)">
+        <path id="Path_16-58" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-58" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-58" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-58" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-58" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-60" data-name="lírioSãoJosé" transform="translate(102 525)">
+        <path id="Path_16-59" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-59" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-59" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-59" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-59" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-61" data-name="lírioSãoJosé" transform="translate(153 525)">
+        <path id="Path_16-60" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-60" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-60" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-60" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-60" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-62" data-name="lírioSãoJosé" transform="translate(204 525)">
+        <path id="Path_16-61" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-61" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-61" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-61" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-61" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-63" data-name="lírioSãoJosé" transform="translate(255 525)">
+        <path id="Path_16-62" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-62" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-62" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-62" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-62" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-64" data-name="lírioSãoJosé" transform="translate(306 525)">
+        <path id="Path_16-63" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-63" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-63" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-63" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-63" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-65" data-name="lírioSãoJosé" transform="translate(357 525)">
+        <path id="Path_16-64" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-64" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-64" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-64" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-64" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-66" data-name="lírioSãoJosé" transform="translate(0 600)">
+        <path id="Path_16-65" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-65" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-65" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-65" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-65" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-67" data-name="lírioSãoJosé" transform="translate(51 600)">
+        <path id="Path_16-66" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-66" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-66" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-66" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-66" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-68" data-name="lírioSãoJosé" transform="translate(102 600)">
+        <path id="Path_16-67" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-67" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-67" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-67" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-67" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-69" data-name="lírioSãoJosé" transform="translate(153 600)">
+        <path id="Path_16-68" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-68" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-68" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-68" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-68" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-70" data-name="lírioSãoJosé" transform="translate(204 600)">
+        <path id="Path_16-69" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-69" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-69" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-69" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-69" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-71" data-name="lírioSãoJosé" transform="translate(255 600)">
+        <path id="Path_16-70" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-70" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-70" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-70" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-70" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-72" data-name="lírioSãoJosé" transform="translate(306 600)">
+        <path id="Path_16-71" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-71" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-71" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-71" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-71" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+      <g id="lírioSãoJosé-73" data-name="lírioSãoJosé" transform="translate(357 600)">
+        <path id="Path_16-72" data-name="Path 16" d="M365.767,339.724l-2.515,2.515a19.564,19.564,0,0,0-5.73,13.834v17.389a3.557,3.557,0,0,0,7.114,0v-17.39a12.369,12.369,0,0,1,3.646-8.8l2.515-2.515Z" transform="translate(-357.522 -322.232)" fill="#30cd9c"/>
+        <g id="Group_11-72" data-name="Group 11" transform="translate(6.682)">
+          <path id="Path_17-72" data-name="Path 17" d="M408.16,267.586a5.336,5.336,0,0,0-7.546,0l-3.288,3.288a14.771,14.771,0,0,0-2.516-3.352,5.336,5.336,0,1,0-7.546,7.546,4.155,4.155,0,0,1,0,5.869l7.546,7.546,13.35-13.35A5.336,5.336,0,0,0,408.16,267.586Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+          <g id="Group_10-72" data-name="Group 10" transform="translate(0 10.299)">
+            <path id="Path_18-72" data-name="Path 18" d="M387.265,321.612a5.336,5.336,0,0,1,0-7.546c5.779-5.779,14.688-6.272,19.86-1.1a5.336,5.336,0,1,1-7.546,7.546c-.866-.866-3.089-.579-4.768,1.1A5.336,5.336,0,0,1,387.265,321.612Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="background-2" data-name="background" width="375" height="667" opacity="0.29" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_81)">
+      <path id="Path_81-2" data-name="Path 81" d="M172.5,0C267.769,0,345,98.59,345,220.206S267.769,756.09,172.5,756.09,0,341.822,0,220.206,77.231,0,172.5,0Z" transform="translate(15 161)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="iconSãoJosé" transform="translate(11.779 161.774)">
+      <g id="Group_1" data-name="Group 1" transform="translate(3.221 -0.774)">
+        <path id="Path_1" data-name="Path 1" d="M142.263,183.468c-.315-3.558-.5-7.156-.5-10.794A121.008,121.008,0,0,1,262.633,51.8V0a172.674,172.674,0,0,0,0,345.348v-51.8A121.019,121.019,0,0,1,142.263,183.468Z" transform="translate(-89.959)" fill="#ffb357"/>
+        <path id="Path_2" data-name="Path 2" d="M196.652,0l-.338.254c-16.391,12.322-17.9,37.562.338,51.548a120.872,120.872,0,0,1,0,241.744c-16.266,11.9-18.778,37.026,0,51.8A172.674,172.674,0,0,0,196.652,0Z" transform="translate(-23.978)" fill="#ffce71"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -11.78, -161.77)" filter="url(#Ellipse_3)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="159" cy="159" r="159" transform="translate(29.78 175.77)" fill="#5e7c5e"/>
+      </g>
+      <g id="sao-jose" transform="translate(62.689 20.636)">
+        <g id="Group_1-2" data-name="Group 1" transform="translate(43.959)">
+          <path id="Path_1-2" data-name="Path 1" d="M106.82,59.144c-.1-1.147-.162-2.307-.162-3.479A39.009,39.009,0,0,1,145.623,16.7V0a55.664,55.664,0,1,0,0,111.328v-16.7A39.012,39.012,0,0,1,106.82,59.144Z" transform="translate(-89.959)" fill="#ffb357"/>
+          <path id="Path_2-2" data-name="Path 2" d="M187.735,0l-.109.082a10.337,10.337,0,0,0,.109,16.617,38.965,38.965,0,0,1,0,77.93,10.338,10.338,0,0,0,0,16.7A55.664,55.664,0,0,0,187.735,0Z" transform="translate(-132.071)" fill="#ffce71"/>
+        </g>
+        <g id="Group_4" data-name="Group 4" transform="translate(33.061 206.672)">
+          <g id="Group_2" data-name="Group 2" transform="translate(0 15.378)">
+            <path id="Path_3" data-name="Path 3" d="M125.136,440.046h78.195v31.312H125.136Z" transform="translate(-94.899 -420.172)" fill="#ffce71"/>
+            <path id="Path_4" data-name="Path 4" d="M108.159,423.771a66.653,66.653,0,0,0-7.785,31.312H70.136A66.458,66.458,0,0,1,94.2,403.9h13.959Z" transform="translate(-70.136 -403.897)" fill="#ffb357"/>
+          </g>
+          <g id="Group_3" data-name="Group 3" transform="translate(24.063)">
+            <path id="Path_5" data-name="Path 5" d="M206.94,390.094a66.308,66.308,0,0,0-23.948-10.981L139.3,395.606v17.008q1.97,2.156,4.062,4.186a95.688,95.688,0,0,0,66.345,27.124H234.4A66.532,66.532,0,0,0,206.94,390.094Z" transform="translate(-125.34 -377.36)" fill="#70dcba"/>
+            <path id="Path_6" data-name="Path 6" d="M171.558,377.678A66.393,66.393,0,0,0,117.3,388.659q-1.739,1.267-3.4,2.645a94.62,94.62,0,0,0,13.962,19.875,66.518,66.518,0,0,1,8.968-12.931A67.215,67.215,0,0,1,171.558,377.678Z" transform="translate(-113.906 -375.925)" fill="#30cd9c"/>
+          </g>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(0 76.326)">
+          <g id="Group_5" data-name="Group 5" transform="translate(0 37.777)">
+            <path id="Path_7" data-name="Path 7" d="M29.836,207.547a19.82,19.82,0,1,0,2.447.15A20.063,20.063,0,0,0,29.836,207.547Z" transform="translate(-10 -207.547)" fill="#ffbd86"/>
+            <path id="Path_8" data-name="Path 8" d="M320.092,207.547a19.834,19.834,0,0,0-1.621,39.6c.535.043,1.075.071,1.621.071a19.836,19.836,0,0,0,0-39.673Z" transform="translate(-140.682 -207.547)" fill="#ffbd86"/>
+          </g>
+          <g id="Group_6" data-name="Group 6" transform="translate(19.836)">
+            <path id="Path_9" data-name="Path 9" d="M225.8,196.447l-48.724-57.614H90.815V243.959l17.655,17.656h83.568Z" transform="translate(-66.222 -138.833)" fill="#fed2a4"/>
+            <path id="Path_10" data-name="Path 10" d="M94.513,251.421a79.743,79.743,0,0,1,2.622-112.588H70.674L46.081,196.447l33.747,65.168H106.3a80.292,80.292,0,0,1-11.79-10.194Z" transform="translate(-46.081 -138.833)" fill="#ffbd86"/>
+          </g>
+          <g id="Group_7" data-name="Group 7" transform="translate(61.167 62.411)">
+            <path id="Path_11" data-name="Path 11" d="M125.383,252.356a4.123,4.123,0,0,0-4.123,4.123v6.6a4.123,4.123,0,0,0,8.247,0v-6.6a4.123,4.123,0,0,0-4.123-4.123Z" transform="translate(-121.26 -252.356)" fill="#313d40"/>
+            <path id="Path_12" data-name="Path 12" d="M250.281,252.356a4.123,4.123,0,0,0-4.123,4.123v6.6a4.123,4.123,0,0,0,8.247,0v-6.6a4.123,4.123,0,0,0-4.123-4.123Z" transform="translate(-177.493 -252.356)" fill="#313d40"/>
+          </g>
+          <path id="Path_13" data-name="Path 13" d="M186.692,269.852c-5.974-6.256-15.043-7.043-19.241-1.163-4.2-5.88-13.267-5.093-19.241,1.163-6.334,6.643-11.275,12.851-9.348,16.186s9.771,2.16,18.692,0a15.88,15.88,0,0,0,9.9-6.835,15.88,15.88,0,0,0,9.9,6.835c8.921,2.162,16.767,3.34,18.692,0S193.026,276.495,186.692,269.852Z" transform="translate(-67.827 -195.498)" fill="#bd7669"/>
+        </g>
+        <g id="Group_9" data-name="Group 9" transform="translate(16.373 33.188)">
+          <path id="Path_14" data-name="Path 14" d="M243.685,180.884c2.171-13.037,2.427-26.637-.826-39.452a65.668,65.668,0,0,0-68.3-80.911l-6.4,6.4v17a57.512,57.512,0,0,0,57.511,57.511,63.291,63.291,0,0,1-42.66,80.523q-.25.072-.5.127a7.784,7.784,0,0,1-9.3-7.711v-1.524A3.848,3.848,0,0,0,169.357,209h-7.675a3.848,3.848,0,0,0-3.848,3.848v1.53a7.78,7.78,0,0,1-9.278,7.711c-.172-.038-.344-.081-.516-.13a63.119,63.119,0,0,1-13.875-5.864v30.491h70.456c4.869,0,7.322-.725,10.072-3.171a12.892,12.892,0,0,0,4.323-9.575l.04-.045a14.393,14.393,0,0,0,15.517-23.536l.009-.019a17.379,17.379,0,0,0,9.1-29.354Z" transform="translate(-82.276 -60.367)" fill="#ce857a"/>
+          <path id="Path_15" data-name="Path 15" d="M68.768,132.237l.175-.175,15.529-15.529a24.5,24.5,0,0,1,17.323-7.176,109.948,109.948,0,0,0,77.749,32.2h3.627c-31.649-13.884-54.421-46.522-51.108-80.911a65.64,65.64,0,0,0-47.841,25.8,37.34,37.34,0,0,0-38.536,55.109,79.856,79.856,0,0,0-2.447,19.687,120.34,120.34,0,0,0,1.622,19.771c-9.792,9.792-4.712,26.864,9.137,29.424a14.4,14.4,0,0,0,15.544,23.537c0,5.39,3.488,12.734,14.383,12.734a12.131,12.131,0,0,0,19.539,9.589,10.007,10.007,0,0,0,19.561,2.98,10.007,10.007,0,0,0,19.561-2.98,12.134,12.134,0,0,0,19.541-9.589,96.647,96.647,0,0,1-70.456-30.491,63.6,63.6,0,0,1-19.042-16.68,63.3,63.3,0,0,1-9.883-57.594,24.229,24.229,0,0,1,6.022-9.708Z" transform="translate(-39.782 -60.492)" fill="#bd7669"/>
+        </g>
+        <g id="Group_12" data-name="Group 12" transform="translate(191.057 146.216)">
+          <path id="Path_16-73" data-name="Path 16" d="M376.637,339.724l-5.831,5.832a45.357,45.357,0,0,0-13.285,32.072v40.315a8.246,8.246,0,1,0,16.493,0V377.626a28.675,28.675,0,0,1,8.453-20.409l5.831-5.831Z" transform="translate(-357.522 -299.17)" fill="#30cd9c"/>
+          <g id="Group_11-73" data-name="Group 11" transform="translate(15.492)">
+            <path id="Path_17-73" data-name="Path 17" d="M437.769,269.73a12.37,12.37,0,0,0-17.494,0l-7.624,7.624a34.247,34.247,0,0,0-5.834-7.772,12.37,12.37,0,1,0-17.494,17.494,9.632,9.632,0,0,1,0,13.606l17.494,17.494,30.951-30.951A12.37,12.37,0,0,0,437.769,269.73Z" transform="translate(-385.702 -265.959)" fill="#d4d4ff"/>
+            <g id="Group_10-73" data-name="Group 10" transform="translate(0 23.876)">
+              <path id="Path_18-73" data-name="Path 18" d="M389.325,337.728a12.37,12.37,0,0,1,0-17.494c13.4-13.4,34.052-14.542,46.042-2.551a12.37,12.37,0,0,1-17.494,17.494c-2.007-2.007-7.161-1.343-11.055,2.551A12.37,12.37,0,0,1,389.325,337.728Z" transform="translate(-385.702 -309.388)" fill="#efedff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_13" data-name="Group 13" transform="translate(180.271 223.193)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="10.995" cy="10.995" r="10.995" transform="translate(0 5.498)" fill="#ffbd86"/>
+          <circle id="Ellipse_2" data-name="Ellipse 2" cx="16.493" cy="16.493" r="16.493" transform="translate(16.493)" fill="#fed2a4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
