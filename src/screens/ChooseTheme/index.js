@@ -30,11 +30,11 @@ const ChooseTheme = ({navigation}) => {
         <S.Box>
           <S.BoxBody />
 
-          <Text style={{marginRight: 20, position: 'absolute', bottom: 301}}>
+          <Text style={{marginRight: 20, position: 'absolute', bottom: 235}}>
             {selectedTheme}
           </Text>
           <S.AreaQuestion>
-            <S.AreaQText>Deseja escolher esta interface?</S.AreaQText>
+            <S.QuestionText>Deseja escolher esta interface?</S.QuestionText>
           </S.AreaQuestion>
 
           <S.AreaBtn>

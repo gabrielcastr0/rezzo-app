@@ -167,6 +167,7 @@ export default {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   `,
 
   AreaQuestion: styled.View`
@@ -183,9 +184,10 @@ export default {
     align-items: center;
   `,
 
-  AreaQText: styled.Text`
+  QuestionText: styled.Text`
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   `,
 };
