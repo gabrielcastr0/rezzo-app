@@ -28,11 +28,9 @@ const ChooseTheme = ({navigation}) => {
         transparent={true}
         onRequestClose={() => setModalVisible(false)}>
         <S.Box>
-          <S.BoxBody />
-
-          <Text style={{marginRight: 20, position: 'absolute', bottom: 235}}>
-            {selectedTheme}
-          </Text>
+          <S.BoxBody>
+            <Text>{selectedTheme}</Text>
+          </S.BoxBody>
           <S.AreaQuestion>
             <S.QuestionText>Deseja escolher esta interface?</S.QuestionText>
           </S.AreaQuestion>
