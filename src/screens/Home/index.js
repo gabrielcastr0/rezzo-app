@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
 import CustomBackgroundImage from '../../components/CustomBackgroundImage';
@@ -54,9 +54,9 @@ const Home = () => {
   const {theme} = useTheme();
 
   // open modalize when open home tab
-  // useEffect(() => {
-  //   modalizeRef.current?.open();
-  // }, []);
+  useEffect(() => {
+    modalizeRef.current?.open();
+  }, []);
 
   const DateActual = new Date();
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
@@ -120,8 +120,8 @@ const Home = () => {
         onDayPress={onOpen}
         style={{}}
         theme={{
-          backgroundColor: '#000000',
-          calendarBackground: '#00000011',
+          // backgroundColor: 'transparent',
+          calendarBackground: 'rgba(0, 0, 0, 0.05)',
           textSectionTitleColor: theme.textColor,
           textSectionTitleColorFontWeight: 'bold',
           // textSectionTitleDisabledColor: '#d9e1e8',

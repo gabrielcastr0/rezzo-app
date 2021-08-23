@@ -4,6 +4,8 @@ export default {
   Container: styled.View`
     flex: 1;
     background-color: #c0d7dc;
+    justify-content: center;
+    align-content: center;
   `,
 
   TitleArea: styled.View`

@@ -10,16 +10,23 @@ const About = () => {
   const windowWidth = Dimensions.get('window').width;
 
   const [loading, setLoading] = useState();
-  const [movies, setMovies] = useState([]);
+  const [prayers, setPrayers] = useState([]);
 
   useEffect(() => {
     const handleLoadingButton = async () => {
       setLoading(true);
-      const req = await fetch('https://api.b7web.com.br/cinema/');
+      const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+      });
+
       const json = await req.json();
 
       if (json) {
-        setMovies(json);
+        setPrayers(json.list);
       }
 
       setLoading(false);
@@ -44,10 +51,11 @@ const About = () => {
             showsHorizontalScrollIndicator={false}
             snapToInterval={windowWidth}
             decelerationRate="fast"
-            data={movies}
+            data={prayers}
             bounces={false}
             renderItem={({item}) => (
               <View
+                // eslint-disable-next-line react-native/no-inline-styles
                 style={{
                   display: 'flex',
                   justifyContent: 'center',
@@ -55,19 +63,17 @@ const About = () => {
                   height: '95%',
                 }}>
                 <S.AreaBoxTitle>
-                  <S.TextTitle>
-                    {item.titulo.substring(0, 10) + '...'}
-                  </S.TextTitle>
+                  <S.TextTitle>{item.title}</S.TextTitle>
                 </S.AreaBoxTitle>
 
                 <S.AreaBoxBody>
                   <S.AreaText style={{backgroundColor: theme.textColor}}>
-                    <S.TextBody>{item.titulo}</S.TextBody>
+                    <S.TextBody>{item.body}</S.TextBody>
                   </S.AreaText>
                 </S.AreaBoxBody>
               </View>
             )}
-            keyExtractor={item => item.titulo}
+            keyExtractor={item => item.title}
           />
         )}
       </S.AreaBox>

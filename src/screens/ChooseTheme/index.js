@@ -17,7 +17,9 @@ const ChooseTheme = ({navigation}) => {
 
   const changeTheme = themeValue => {
     updateTheme(themeValue);
-    navigation.navigate('TabNavigator');
+    navigation.navigate('TabNavigator', {
+      screen: 'Home',
+    });
   };
 
   return (
