@@ -5,7 +5,7 @@ import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {StyleSheet} from 'react-native';
+import {Modal, Text, FlatList, View} from 'react-native';
 
 LocaleConfig.locales.pt_br = {
   monthNames: [
@@ -52,15 +52,22 @@ LocaleConfig.defaultLocale = 'pt_br';
 
 const Home = () => {
   const {theme} = useTheme();
-
   // open modalize when open home tab
-  useEffect(() => {
-    modalizeRef.current?.open();
-  }, []);
+  // useEffect(() => {
+  //   modalizeRef.current?.open();
+  // }, []);
 
   const DateActual = new Date();
+  const [prayers, setPrayers] = useState([]);
+  const [modalVisible, setModalVisible] = useState(false);
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
+  let [activity, setActivity] = useState([
+    'atividade 1',
+    'atividade 2',
+    'atividade 3',
+    'atividade 4',
+  ]);
 
   // converting months number to string
   switch (actualMonth) {
@@ -113,15 +120,68 @@ const Home = () => {
     modalizeRef.current?.open();
   };
 
+  const addActivity = async () => {
+    setModalVisible(true);
+
+    const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+    });
+
+    const json = await req.json();
+
+    if (json) {
+      setPrayers(json.list);
+    }
+  };
+
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
+      <Modal
+        visible={modalVisible}
+        animationType="fade"
+        transparent={true}
+        onRequestClose={() => setModalVisible(false)}>
+        <S.Box>
+          <S.BoxBody>
+            <FlatList
+              decelerationRate="fast"
+              data={prayers}
+              bounces={false}
+              renderItem={({item}) => (
+                <View
+                  // eslint-disable-next-line react-native/no-inline-styles
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                  }}>
+                  <S.AreaBoxTitle>
+                    <Text
+                      onPress={() =>
+                        alert(`Title: ${item.title} - ID: ${item.id}`)
+                      }>
+                      {item.title}
+                    </Text>
+                  </S.AreaBoxTitle>
+                </View>
+              )}
+              keyExtractor={item => item.title}
+            />
+          </S.BoxBody>
+        </S.Box>
+      </Modal>
+
       <Calendar
         enableSwipeMonths={true}
         onDayPress={onOpen}
         style={{}}
         theme={{
           // backgroundColor: 'transparent',
-          calendarBackground: 'rgba(0, 0, 0, 0.05)',
+          calendarBackground: 'rgba(0, 0, 0, 0.03)',
           textSectionTitleColor: theme.textColor,
           textSectionTitleColorFontWeight: 'bold',
           // textSectionTitleDisabledColor: '#d9e1e8',
@@ -153,33 +213,38 @@ const Home = () => {
       <Modalize
         handlePosition="inside"
         ref={modalizeRef}
-        snapPoint={300}
+        snapPoint={430}
         modalHeight={800}
+        withOverlay={false}
         HeaderComponent={
           <S.ModalizeHeaderView>
             <S.ModalizeHeaderText style={{color: theme.textColor}}>
               {todayDate} de {actualMonth}
             </S.ModalizeHeaderText>
+
+            <S.NewActivityBtn>
+              <S.NewActivityText onPress={addActivity}>
+                Nova atividade
+              </S.NewActivityText>
+            </S.NewActivityBtn>
           </S.ModalizeHeaderView>
         }>
         <S.ModalizeView>
-          {/* <TouchableOpacity
-            style={[styles.botao, {backgroundColor: '#29ae19'}]}>
-            <Text>EDITAR</Text>
-          </TouchableOpacity> */}
+          {activity.map(item => (
+            <S.TimelineView>
+              <S.TimelineText>⬤ {item}</S.TimelineText>
+              <S.Line />
+              <S.AccessPrayerBtn>
+                <S.AccessPrayerText onPress={() => alert('Acessou a oração')}>
+                  Acessar Oração
+                </S.AccessPrayerText>
+              </S.AccessPrayerBtn>
+            </S.TimelineView>
+          ))}
         </S.ModalizeView>
       </Modalize>
     </S.Container>
   );
 };
-
-const styles = StyleSheet.create({
-  botao: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 15,
-    borderRadius: 7,
-  },
-});
 
 export default Home;
