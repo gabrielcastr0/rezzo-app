@@ -63,10 +63,10 @@ const Home = () => {
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
   let [activity, setActivity] = useState([
-    'atividade 1',
-    'atividade 2',
-    'atividade 3',
-    'atividade 4',
+    'Sem atividade',
+    'Sem atividade',
+    'Sem atividade',
+    'Sem atividade',
   ]);
 
   // converting months number to string
@@ -222,7 +222,7 @@ const Home = () => {
               {todayDate} de {actualMonth}
             </S.ModalizeHeaderText>
 
-            <S.NewActivityBtn>
+            <S.NewActivityBtn style={{backgroundColor: theme.backgroundColor}}>
               <S.NewActivityText onPress={addActivity}>
                 Nova atividade
               </S.NewActivityText>
@@ -232,9 +232,21 @@ const Home = () => {
         <S.ModalizeView>
           {activity.map(item => (
             <S.TimelineView>
-              <S.TimelineText>⬤ {item}</S.TimelineText>
+              <S.CircleBtn />
+              <S.TimelineText>{item}</S.TimelineText>
               <S.Line />
-              <S.AccessPrayerBtn>
+              <S.TimelineInfoArea>
+                <S.TimelineText style={{color: theme.backgroundColor}}>
+                  ⓘ teste
+                </S.TimelineText>
+                <S.TimelineText style={{color: theme.backgroundColor}}>
+                  ⓘ teste
+                </S.TimelineText>
+              </S.TimelineInfoArea>
+              <S.DivisionLine
+                style={{backgroundColor: theme.backgroundColor}}
+              />
+              <S.AccessPrayerBtn style={{backgroundColor: theme.textColor}}>
                 <S.AccessPrayerText onPress={() => alert('Acessou a oração')}>
                   Acessar Oração
                 </S.AccessPrayerText>
