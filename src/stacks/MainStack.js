@@ -5,6 +5,7 @@ import {useTheme} from '../contexts/ThemeProvider';
 import Preload from '../screens/Preload';
 import TabNavigator from '../stacks/TabNavigator';
 import ChooseTheme from '../screens/ChooseTheme';
+import ReadScreen from '../screens/ReadScreen';
 
 import iconHeaderSaoJose from '../assets/iconHeaderSaoJose.png';
 import iconHeaderNossaSenhora from '../assets/iconHeaderNossaSenhora.png';
@@ -83,6 +84,11 @@ const MainStack = () => {
             borderBottomWidth: 5,
           },
         }}
+      />
+      <Stack.Screen
+        name="ReadScreen"
+        component={ReadScreen}
+        options={{headerShown: false}}
       />
     </Stack.Navigator>
   );

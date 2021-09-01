@@ -2,10 +2,15 @@ import React, {useState, useEffect} from 'react';
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
 import CustomBackgroundImage from '../../components/CustomBackgroundImage';
-import {FlatList, View, ActivityIndicator} from 'react-native';
-import {Dimensions} from 'react-native';
+import {
+  FlatList,
+  View,
+  ActivityIndicator,
+  Dimensions,
+  Button,
+} from 'react-native';
 
-const About = () => {
+const About = ({navigation}) => {
   const {theme} = useTheme();
   const windowWidth = Dimensions.get('window').width;
 
@@ -69,6 +74,10 @@ const About = () => {
                 <S.AreaBoxBody>
                   <S.AreaText style={{backgroundColor: theme.textColor}}>
                     <S.TextBody>{item.body}</S.TextBody>
+                    <Button
+                      title="Opa"
+                      onPress={() => navigation.navigate('ReadScreen')}
+                    />
                   </S.AreaText>
                 </S.AreaBoxBody>
               </View>
