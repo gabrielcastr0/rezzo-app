@@ -2,10 +2,10 @@ import React from 'react';
 import {useTheme} from '../contexts/ThemeProvider';
 import {View, Image, Dimensions} from 'react-native';
 
-import oneLirioImg from '../assets/oneLirioImg.png';
-import oneFlorImg from '../assets/oneFlorImg.png';
-import nuvemImg from '../assets/nuvemImg.png';
-import comunhaoImg from '../assets/comunhaoImg.png';
+import oneLirioImg from '../assets/readScreenImgs/oneLirioImg.png';
+import oneFlorImg from '../assets/readScreenImgs/oneFlorImg.png';
+import oneNuvemImg from '../assets/readScreenImgs/oneNuvemImg.png';
+import oneComunhaoImg from '../assets/readScreenImgs/oneComunhaoImg.png';
 
 const {width} = Dimensions.get('window');
 const {height} = Dimensions.get('window');
@@ -25,11 +25,11 @@ const CustomBackgroundImage = () => {
       break;
 
     case 'santoAnjo':
-      imgBackground = nuvemImg;
+      imgBackground = oneNuvemImg;
       break;
 
     case 'jesus':
-      imgBackground = comunhaoImg;
+      imgBackground = oneComunhaoImg;
       break;
 
     default:

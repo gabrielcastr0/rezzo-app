@@ -4,10 +4,10 @@ import {Modal, Text} from 'react-native';
 import {useTheme} from '../../contexts/ThemeProvider';
 import S from './styles';
 
-import BackgroundSaoJose from '../../assets/backgroundSaoJose.svg';
-import BackgroundNossaSenhora from '../../assets/backgroundNossaSenhora.svg';
-import BackgroundSantoAnjo from '../../assets/backgroundSantoAnjo.svg';
-import BackgroundJesus from '../../assets/backgroundJesus.svg';
+import BackgroundSaoJose from '../../assets/backChooseTheme/backgroundSaoJose.svg';
+import BackgroundNossaSenhora from '../../assets/backChooseTheme/backgroundNossaSenhora.svg';
+import BackgroundSantoAnjo from '../../assets/backChooseTheme/backgroundSantoAnjo.svg';
+import BackgroundJesus from '../../assets/backChooseTheme/backgroundJesus.svg';
 
 const ChooseTheme = ({navigation}) => {
   const {updateTheme} = useTheme();

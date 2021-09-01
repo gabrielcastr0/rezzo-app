@@ -7,10 +7,10 @@ import TabNavigator from '../stacks/TabNavigator';
 import ChooseTheme from '../screens/ChooseTheme';
 import ReadScreen from '../screens/ReadScreen';
 
-import iconHeaderSaoJose from '../assets/iconHeaderSaoJose.png';
-import iconHeaderNossaSenhora from '../assets/iconHeaderNossaSenhora.png';
-import iconHeaderSantoAnjo from '../assets/iconHeaderSantoAnjo.png';
-import iconHeaderJesus from '../assets/iconHeaderJesus.png';
+import iconHeaderSaoJose from '../assets/headerIcons/iconHeaderSaoJose.png';
+import iconHeaderNossaSenhora from '../assets/headerIcons/iconHeaderNossaSenhora.png';
+import iconHeaderSantoAnjo from '../assets/headerIcons/iconHeaderSantoAnjo.png';
+import iconHeaderJesus from '../assets/headerIcons/iconHeaderJesus.png';
 
 import {Image, StyleSheet, View} from 'react-native';
 

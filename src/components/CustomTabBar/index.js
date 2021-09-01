@@ -3,9 +3,9 @@ import React from 'react';
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
 
-import HomeIcon from '../../assets/home.svg';
-import PrayIcon from '../../assets/pray.svg';
-import ConfigIcon from '../../assets/config.svg';
+import HomeIcon from '../../assets/iconsTabBar/home.svg';
+import PrayIcon from '../../assets/iconsTabBar/pray.svg';
+import ConfigIcon from '../../assets/iconsTabBar/config.svg';
 
 const TabBar = ({state, navigation}) => {
   const {theme} = useTheme();
