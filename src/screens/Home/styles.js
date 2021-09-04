@@ -85,9 +85,9 @@ export default {
   Line: styled.View`
     height: 70px;
     width: 1px;
-    background-color: #000;
+    background-color: #707070;
     position: absolute;
-    left: 8;
+    left: 8.7;
     bottom: -50;
   `,
 

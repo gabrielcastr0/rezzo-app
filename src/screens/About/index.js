@@ -7,8 +7,10 @@ import {
   View,
   ActivityIndicator,
   Dimensions,
-  Button,
+  TouchableOpacity,
 } from 'react-native';
+
+import Favorite from '../../assets/favorite.svg';
 
 const About = ({navigation}) => {
   const {theme} = useTheme();
@@ -43,7 +45,8 @@ const About = ({navigation}) => {
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
       <CustomBackgroundImage />
-      <S.AreaBox>
+
+      <S.PlannerArea>
         {loading && (
           <S.LoadingArea>
             <ActivityIndicator size="large" color={theme.textColor} />
@@ -52,10 +55,10 @@ const About = ({navigation}) => {
 
         {!loading && (
           <FlatList
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            snapToInterval={windowWidth}
-            decelerationRate="fast"
+            // horizontal
+            // showsHorizontalScrollIndicator={false}
+            // snapToInterval={windowWidth}
+            // decelerationRate="fast"
             data={prayers}
             bounces={false}
             renderItem={({item}) => (
@@ -63,29 +66,36 @@ const About = ({navigation}) => {
                 // eslint-disable-next-line react-native/no-inline-styles
                 style={{
                   display: 'flex',
-                  justifyContent: 'center',
                   alignItems: 'center',
-                  height: '95%',
                 }}>
-                <S.AreaBoxTitle>
-                  <S.TextTitle>{item.title}</S.TextTitle>
-                </S.AreaBoxTitle>
+                <S.TitleTextArea>
+                  <S.TitleText>{item.title}</S.TitleText>
+                </S.TitleTextArea>
 
-                <S.AreaBoxBody>
-                  <S.AreaText style={{backgroundColor: theme.textColor}}>
-                    <S.TextBody>{item.body}</S.TextBody>
-                    <Button
-                      title="Opa"
-                      onPress={() => navigation.navigate('ReadScreen')}
-                    />
-                  </S.AreaText>
-                </S.AreaBoxBody>
+                <S.PrayNameArea>
+                  <S.PrayNameText>{item.body}</S.PrayNameText>
+                  <TouchableOpacity
+                    onPress={() => navigation.navigate('ReadScreen')}>
+                    <Favorite />
+                  </TouchableOpacity>
+                </S.PrayNameArea>
               </View>
             )}
             keyExtractor={item => item.title}
           />
         )}
-      </S.AreaBox>
+      </S.PlannerArea>
+
+      {/* <S.PlannerArea>
+        <S.TitleTextArea>
+          <S.TitleText>Título</S.TitleText>
+        </S.TitleTextArea>
+
+        <S.PrayNameArea>
+          <S.PrayNameText>Nome 1</S.PrayNameText>
+          <Favorite />
+        </S.PrayNameArea>
+      </S.PlannerArea> */}
     </S.Container>
   );
 };
