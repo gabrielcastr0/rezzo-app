@@ -1,4 +1,7 @@
 import styled from 'styled-components/native';
+import {Dimensions} from 'react-native';
+
+const windowWidth = Dimensions.get('window').width;
 
 export default {
   Container: styled.View`
@@ -27,9 +30,7 @@ export default {
   `,
 
   AreaPrayer: styled.View`
-    /* background-color: pink; */
     width: 346px;
-    /* height: 251px; */
     position: absolute;
     top: 80px;
     align-items: center;

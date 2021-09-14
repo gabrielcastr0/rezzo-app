@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import S from './styled';
 import {useTheme} from '../../contexts/ThemeProvider';
 import {useNavigation} from '@react-navigation/native';
@@ -13,10 +13,12 @@ import StarFull from '../../assets/iconsReadScreen/star_full.svg';
 import ArrowRight from '../../assets/iconsReadScreen/arrow_right.svg';
 import ArrowLeft from '../../assets/iconsReadScreen/arrow_left.svg';
 
-const ReadScreen = () => {
+const ReadScreen = ({route, navigation}) => {
   const {theme} = useTheme();
-  const navigation = useNavigation();
+  const {title, body} = route.params;
 
+  const [loading, setLoading] = useState();
+  const [prayers, setPrayers] = useState([]);
   const [favorite, setFavorite] = useState(false);
 
   const handleClickCancel = () => {
@@ -27,6 +29,30 @@ const ReadScreen = () => {
     setFavorite(true);
   };
 
+  // useEffect(() => {
+  //   const handleLoadingButton = async () => {
+  //     setLoading(true);
+  //     const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
+  //       method: 'GET',
+  //       headers: {
+  //         Accept: 'application/json',
+  //         'Content-Type': 'application/json',
+  //       },
+  //     });
+
+  //     const json = await req.json();
+
+  //     if (json) {
+  //       setPrayers(json.list);
+  //       // alert(json.list[0].id);
+  //     }
+
+  //     setLoading(false);
+  //   };
+
+  //   handleLoadingButton();
+  // }, []);
+
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
       <CustomBackgroundPrayerImage />
@@ -35,29 +61,24 @@ const ReadScreen = () => {
           <Cancel />
         </TouchableOpacity>
 
-        <S.TopTitle style={{color: theme.textColor}}>TÍTULO AQUI</S.TopTitle>
+        <S.TopTitle style={{color: theme.textColor}}>ORAÇÕES</S.TopTitle>
 
         <TouchableOpacity>
-          <List />
+          <List style={{opacity: 0}} />
         </TouchableOpacity>
       </S.TopArea>
 
       <S.AreaPrayer>
         <S.AreaTitle>
-          <S.TextTitle>Título Oração</S.TextTitle>
+          <S.TextTitle>{title}</S.TextTitle>
         </S.AreaTitle>
 
         <S.AreaBody>
-          <S.TextBody>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </S.TextBody>
+          <S.TextBody>{body}.</S.TextBody>
         </S.AreaBody>
       </S.AreaPrayer>
 
-      <S.BottomArea>
+      {/* <S.BottomArea>
         <TouchableOpacity>
           <ArrowLeft />
         </TouchableOpacity>
@@ -70,7 +91,7 @@ const ReadScreen = () => {
         <TouchableOpacity>
           <ArrowRight />
         </TouchableOpacity>
-      </S.BottomArea>
+      </S.BottomArea> */}
     </S.Container>
   );
 };

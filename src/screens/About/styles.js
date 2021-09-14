@@ -74,7 +74,6 @@ export default {
   TitleTextArea: styled.View`
     height: 50px;
     width: ${windowWidth}px;
-    /* background-color: pink; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -91,7 +90,6 @@ export default {
   `,
 
   PrayNameArea: styled.View`
-    /* background-color: blue; */
     margin-top: 10px;
     height: 30px;
     width: 400px;

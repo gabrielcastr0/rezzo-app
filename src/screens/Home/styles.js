@@ -87,25 +87,24 @@ export default {
     width: 1px;
     background-color: #707070;
     position: absolute;
-    left: 8.7;
-    bottom: -50;
+    left: 8.7px;
+    bottom: -50px;
   `,
 
   TimelineInfoArea: styled.View`
     height: 50px;
     width: 120px;
     position: absolute;
-    float: left;
-    bottom: -30;
-    left: 20;
+    bottom: -30px;
+    left: 20px;
   `,
 
   DivisionLine: styled.View`
     height: 60px;
     width: 2px;
     background-color: #000;
-    left: 30;
-    bottom: -20;
+    left: 30px;
+    bottom: -20px;
   `,
 
   AccessPrayerBtn: styled.TouchableOpacity`

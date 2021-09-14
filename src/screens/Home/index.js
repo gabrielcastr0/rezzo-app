@@ -169,7 +169,7 @@ const Home = () => {
                   </S.AreaBoxTitle>
                 </View>
               )}
-              keyExtractor={item => item.title}
+              keyExtractor={item => item.id}
             />
           </S.BoxBody>
         </S.Box>

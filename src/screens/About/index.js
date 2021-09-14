@@ -6,7 +6,6 @@ import {
   FlatList,
   View,
   ActivityIndicator,
-  Dimensions,
   TouchableOpacity,
 } from 'react-native';
 
@@ -14,7 +13,6 @@ import Favorite from '../../assets/favorite.svg';
 
 const About = ({navigation}) => {
   const {theme} = useTheme();
-  const windowWidth = Dimensions.get('window').width;
 
   const [loading, setLoading] = useState();
   const [prayers, setPrayers] = useState([]);
@@ -42,6 +40,14 @@ const About = ({navigation}) => {
     handleLoadingButton();
   }, []);
 
+  const goToReadScreen = item => () => {
+    // alert(`ID: ${item.id} - Título: ${item.title} `);
+    navigation.navigate('ReadScreen', {
+      title: item.title,
+      body: item.body,
+    });
+  };
+
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
       <CustomBackgroundImage />
@@ -52,6 +58,10 @@ const About = ({navigation}) => {
             <ActivityIndicator size="large" color={theme.textColor} />
           </S.LoadingArea>
         )}
+
+        <S.TitleTextArea>
+          <S.TitleText>ORAÇÕES</S.TitleText>
+        </S.TitleTextArea>
 
         {!loading && (
           <FlatList
@@ -68,34 +78,20 @@ const About = ({navigation}) => {
                   display: 'flex',
                   alignItems: 'center',
                 }}>
-                <S.TitleTextArea>
-                  <S.TitleText>{item.title}</S.TitleText>
-                </S.TitleTextArea>
-
                 <S.PrayNameArea>
-                  <S.PrayNameText>{item.body}</S.PrayNameText>
-                  <TouchableOpacity
-                    onPress={() => navigation.navigate('ReadScreen')}>
+                  <S.PrayNameText>
+                    {item.title} - ID: {item.id}
+                  </S.PrayNameText>
+                  <TouchableOpacity onPress={goToReadScreen(item)}>
                     <Favorite />
                   </TouchableOpacity>
                 </S.PrayNameArea>
               </View>
             )}
-            keyExtractor={item => item.title}
+            keyExtractor={item => item.id}
           />
         )}
       </S.PlannerArea>
-
-      {/* <S.PlannerArea>
-        <S.TitleTextArea>
-          <S.TitleText>Título</S.TitleText>
-        </S.TitleTextArea>
-
-        <S.PrayNameArea>
-          <S.PrayNameText>Nome 1</S.PrayNameText>
-          <Favorite />
-        </S.PrayNameArea>
-      </S.PlannerArea> */}
     </S.Container>
   );
 };
