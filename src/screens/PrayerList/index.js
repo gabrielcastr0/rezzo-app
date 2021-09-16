@@ -9,9 +9,9 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import Favorite from '../../assets/favorite.svg';
+import ArrowRight from '../../assets/arrow_right_circle.svg';
 
-const About = ({navigation}) => {
+const PrayerList = ({navigation}) => {
   const {theme} = useTheme();
 
   const [loading, setLoading] = useState();
@@ -41,7 +41,6 @@ const About = ({navigation}) => {
   }, []);
 
   const goToReadScreen = item => () => {
-    // alert(`ID: ${item.id} - Título: ${item.title} `);
     navigation.navigate('ReadScreen', {
       title: item.title,
       body: item.body,
@@ -65,10 +64,6 @@ const About = ({navigation}) => {
 
         {!loading && (
           <FlatList
-            // horizontal
-            // showsHorizontalScrollIndicator={false}
-            // snapToInterval={windowWidth}
-            // decelerationRate="fast"
             data={prayers}
             bounces={false}
             renderItem={({item}) => (
@@ -79,11 +74,9 @@ const About = ({navigation}) => {
                   alignItems: 'center',
                 }}>
                 <S.PrayNameArea>
-                  <S.PrayNameText>
-                    {item.title} - ID: {item.id}
-                  </S.PrayNameText>
+                  <S.PrayNameText>{item.title}</S.PrayNameText>
                   <TouchableOpacity onPress={goToReadScreen(item)}>
-                    <Favorite />
+                    <ArrowRight />
                   </TouchableOpacity>
                 </S.PrayNameArea>
               </View>
@@ -96,4 +89,4 @@ const About = ({navigation}) => {
   );
 };
 
-export default About;
+export default PrayerList;

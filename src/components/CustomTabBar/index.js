@@ -26,7 +26,7 @@ const TabBar = ({state, navigation}) => {
           />
         </S.TabItem>
 
-        <S.TabItem onPress={() => goTo('About')}>
+        <S.TabItem onPress={() => goTo('PrayerList')}>
           <PrayIcon
             width="45"
             height="45"

@@ -1,7 +1,4 @@
 import styled from 'styled-components/native';
-import {Dimensions} from 'react-native';
-
-const windowWidth = Dimensions.get('window').width;
 
 export default {
   Container: styled.View`
@@ -46,12 +43,14 @@ export default {
   `,
 
   TextTitle: styled.Text`
-    font-size: 35px;
+    font-size: 25px;
     color: #fff;
   `,
 
   AreaBody: styled.View`
+    flex: 1;
     min-height: 182px;
+    max-height: 600px;
     width: 346px;
     background-color: #fff;
     margin-top: 10px;
@@ -61,7 +60,7 @@ export default {
   `,
 
   TextBody: styled.Text`
-    padding-top: 10px;
+    padding: 10px;
     font-size: 21px;
     color: #5e7c5e;
   `,
