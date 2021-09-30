@@ -5,7 +5,10 @@ import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {Modal, Text, FlatList, View} from 'react-native';
+import {Modal, FlatList, View, TouchableOpacity, Text} from 'react-native';
+
+import Success from '../../assets/success.svg';
+import Error from '../../assets/error.svg';
 
 LocaleConfig.locales.pt_br = {
   monthNames: [
@@ -53,21 +56,18 @@ LocaleConfig.defaultLocale = 'pt_br';
 const Home = () => {
   const {theme} = useTheme();
   // open modalize when open home tab
-  // useEffect(() => {
-  //   modalizeRef.current?.open();
-  // }, []);
+  useEffect(() => {
+    modalizeRef.current?.open();
+  }, []);
 
   const DateActual = new Date();
   const [prayers, setPrayers] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
+  const [statusActivity, setStatusActivity] = useState(false);
+
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
-  let [activity, setActivity] = useState([
-    'Sem atividade',
-    'Sem atividade',
-    'Sem atividade',
-    'Sem atividade',
-  ]);
+  let [activity, setActivity] = useState([]);
 
   // converting months number to string
   switch (actualMonth) {
@@ -120,7 +120,8 @@ const Home = () => {
     modalizeRef.current?.open();
   };
 
-  const addActivity = async () => {
+  const newActivity = async () => {
+    // alert(`${todayDate} + ${actualMonth}`);
     setModalVisible(true);
 
     const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
@@ -136,6 +137,18 @@ const Home = () => {
     if (json) {
       setPrayers(json.list);
     }
+  };
+
+  const handleClickActivity = item => () => {
+    setActivity(act => [...act, item.title]);
+  };
+
+  const handleClickStatusActivity = () => {
+    setStatusActivity(true);
+  };
+
+  const handleClickAccessPrayer = item => () => {
+    alert(`Você acessou a oração: ${item}`);
   };
 
   return (
@@ -160,12 +173,9 @@ const Home = () => {
                     alignItems: 'center',
                   }}>
                   <S.AreaBoxTitle>
-                    <Text
-                      onPress={() =>
-                        alert(`Title: ${item.title} - ID: ${item.id}`)
-                      }>
+                    <S.ModalizeHeaderText onPress={handleClickActivity(item)}>
                       {item.title}
-                    </Text>
+                    </S.ModalizeHeaderText>
                   </S.AreaBoxTitle>
                 </View>
               )}
@@ -178,24 +188,16 @@ const Home = () => {
       <Calendar
         enableSwipeMonths={true}
         onDayPress={onOpen}
-        style={{}}
         theme={{
-          // backgroundColor: 'transparent',
           calendarBackground: 'rgba(0, 0, 0, 0.03)',
           textSectionTitleColor: theme.textColor,
           textSectionTitleColorFontWeight: 'bold',
-          // textSectionTitleDisabledColor: '#d9e1e8',
-          selectedDayBackgroundColor: '#00adf5',
           selectedDayTextColor: '#000000',
           todayTextColor: theme.textColor,
           dayTextColor: '#ffffff',
-          textDisabledColor: 'gray',
-          dotColor: '#00adf5',
-          selectedDotColor: 'red',
           arrowColor: theme.textColor,
           disabledArrowColor: '#d9e1e8',
           monthTextColor: theme.textColor,
-          indicatorColor: 'blue',
           textDayFontFamily: 'Arial',
           textMonthFontFamily: 'Arial',
           textDayHeaderFontFamily: 'Arial',
@@ -223,7 +225,7 @@ const Home = () => {
             </S.ModalizeHeaderText>
 
             <S.NewActivityBtn style={{backgroundColor: theme.backgroundColor}}>
-              <S.NewActivityText onPress={addActivity}>
+              <S.NewActivityText onPress={newActivity}>
                 Nova atividade
               </S.NewActivityText>
             </S.NewActivityBtn>
@@ -232,22 +234,16 @@ const Home = () => {
         <S.ModalizeView>
           {activity.map(item => (
             <S.TimelineView>
-              <S.CircleBtn />
+              <TouchableOpacity onPress={handleClickStatusActivity}>
+                {statusActivity === false && <Error />}
+                {statusActivity === true && <Success />}
+              </TouchableOpacity>
               <S.TimelineText>{item}</S.TimelineText>
-              <S.Line />
-              <S.TimelineInfoArea>
-                <S.TimelineText style={{color: theme.backgroundColor}}>
-                  ⓘ teste
-                </S.TimelineText>
-                <S.TimelineText style={{color: theme.backgroundColor}}>
-                  ⓘ teste
-                </S.TimelineText>
-              </S.TimelineInfoArea>
               <S.DivisionLine
                 style={{backgroundColor: theme.backgroundColor}}
               />
               <S.AccessPrayerBtn style={{backgroundColor: theme.textColor}}>
-                <S.AccessPrayerText onPress={() => alert('Acessou a oração')}>
+                <S.AccessPrayerText onPress={handleClickAccessPrayer(item)}>
                   Acessar Oração
                 </S.AccessPrayerText>
               </S.AccessPrayerBtn>

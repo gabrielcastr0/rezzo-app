@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="error" transform="translate(0 -0.313)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="8" cy="8" r="8" transform="translate(0 0.313)" fill="#fb7083"/>
+    <path id="Path_179" data-name="Path 179" d="M16,21.873l2.936-2.936L21.873,16" transform="translate(-10.78 -10.78)" fill="none" stroke="#fffdfc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_180" data-name="Path 180" d="M16,16l2.936,2.936,2.936,2.936" transform="translate(-10.78 -10.78)" fill="none" stroke="#fffdfc" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

@@ -71,40 +71,41 @@ export default {
 
   TimelineText: styled.Text`
     font-size: 17px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     padding-left: 3px;
     color: #62af8a;
   `,
 
-  TimelineInfoText: styled.Text`
-    font-size: 16px;
-    margin-bottom: 5px;
-    padding-left: 15px;
-  `,
+  // TimelineInfoText: styled.Text`
+  //   font-size: 16px;
+  //   margin-bottom: 5px;
+  //   padding-left: 15px;
+  // `,
 
   Line: styled.View`
-    height: 70px;
+    height: 50px;
     width: 1px;
     background-color: #707070;
     position: absolute;
-    left: 8.7px;
-    bottom: -50px;
+    left: 7px;
+    top: 23px;
   `,
 
-  TimelineInfoArea: styled.View`
-    height: 50px;
-    width: 120px;
-    position: absolute;
-    bottom: -30px;
-    left: 20px;
-  `,
+  // TimelineInfoArea: styled.View`
+  //   height: 50px;
+  //   width: 120px;
+  //   position: absolute;
+  //   bottom: -30px;
+  //   left: 20px;
+  // `,
 
   DivisionLine: styled.View`
-    height: 60px;
+    height: 30px;
     width: 2px;
     background-color: #000;
-    left: 30px;
-    bottom: -20px;
+    left: 200px;
+    position: absolute;
+    /* bottom: -20px; */
   `,
 
   AccessPrayerBtn: styled.TouchableOpacity`
@@ -116,7 +117,9 @@ export default {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    /* margin-top: 30px; */
   `,
 
   AccessPrayerText: styled.Text`

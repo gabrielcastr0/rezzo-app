@@ -58,9 +58,11 @@ const PrayerList = ({navigation}) => {
           </S.LoadingArea>
         )}
 
-        <S.TitleTextArea>
-          <S.TitleText>ORAÇÕES</S.TitleText>
-        </S.TitleTextArea>
+        {!loading && (
+          <S.TitleTextArea>
+            <S.TitleText>ORAÇÕES</S.TitleText>
+          </S.TitleTextArea>
+        )}
 
         {!loading && (
           <FlatList
@@ -74,7 +76,9 @@ const PrayerList = ({navigation}) => {
                   alignItems: 'center',
                 }}>
                 <S.PrayNameArea>
-                  <S.PrayNameText>{item.title}</S.PrayNameText>
+                  <S.PrayNameText>
+                    {item.title} - ID: {item.id}
+                  </S.PrayNameText>
                   <TouchableOpacity onPress={goToReadScreen(item)}>
                     <ArrowRight />
                   </TouchableOpacity>
