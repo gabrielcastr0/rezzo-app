@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import ArrowRight from '../../assets/arrow_right_circle.svg';
+import ArrowCircle from '../../assets/arrow_right_circle.svg';
 
 const PrayerList = ({navigation}) => {
   const {theme} = useTheme();
@@ -60,7 +60,10 @@ const PrayerList = ({navigation}) => {
 
         {!loading && (
           <S.TitleTextArea>
-            <S.TitleText>ORAÇÕES</S.TitleText>
+            <S.TitleText
+              style={{color: theme.textColor, borderColor: theme.textColor}}>
+              ORAÇÕES
+            </S.TitleText>
           </S.TitleTextArea>
         )}
 
@@ -75,12 +78,12 @@ const PrayerList = ({navigation}) => {
                   display: 'flex',
                   alignItems: 'center',
                 }}>
-                <S.PrayNameArea>
-                  <S.PrayNameText>
-                    {item.title} - ID: {item.id}
+                <S.PrayNameArea style={{borderColor: theme.textColor}}>
+                  <S.PrayNameText style={{color: theme.textColor}}>
+                    {item.title}
                   </S.PrayNameText>
                   <TouchableOpacity onPress={goToReadScreen(item)}>
-                    <ArrowRight />
+                    <ArrowCircle />
                   </TouchableOpacity>
                 </S.PrayNameArea>
               </View>

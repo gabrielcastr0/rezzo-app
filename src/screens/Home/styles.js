@@ -158,9 +158,10 @@ export default {
   AreaBoxTitle: styled.View`
     border-radius: 15px;
     background-color: #fff;
+    flex-direction: row;
     height: 32px;
     width: 256px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
   `,

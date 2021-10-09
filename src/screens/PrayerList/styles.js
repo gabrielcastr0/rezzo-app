@@ -39,11 +39,9 @@ export default {
 
   TitleText: styled.Text`
     font-size: 21px;
-    color: #5e7c5e;
     text-transform: uppercase;
     font-weight: bold;
     border-bottom-width: 3px;
-    border-color: #5e7c5e;
   `,
 
   PrayNameArea: styled.View`
@@ -53,11 +51,9 @@ export default {
     justify-content: space-between;
     flex-direction: row;
     border-bottom-width: 1px;
-    border-color: #5e7c5e;
   `,
 
   PrayNameText: styled.Text`
     font-size: 21px;
-    color: #5e7c5e;
   `,
 };

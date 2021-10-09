@@ -34,7 +34,6 @@ export default {
   `,
 
   AreaTitle: styled.View`
-    background-color: #5e7c5e;
     width: 282px;
     height: 54px;
     justify-content: center;

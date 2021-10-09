@@ -44,13 +44,13 @@ const ReadScreen = ({route, navigation}) => {
       </S.TopArea>
 
       <S.AreaPrayer>
-        <S.AreaTitle>
+        <S.AreaTitle style={{backgroundColor: theme.textColor}}>
           <S.TextTitle>{title}</S.TextTitle>
         </S.AreaTitle>
 
         <S.AreaBody>
           <ScrollView>
-            <S.TextBody>{body}</S.TextBody>
+            <S.TextBody style={{color: theme.textColor}}>{body}</S.TextBody>
           </ScrollView>
         </S.AreaBody>
       </S.AreaPrayer>

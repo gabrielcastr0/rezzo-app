@@ -5,7 +5,15 @@ import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {Modal, FlatList, View, TouchableOpacity, Text} from 'react-native';
+import {
+  Modal,
+  FlatList,
+  View,
+  TouchableOpacity,
+  Dimensions,
+} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import CheckBox from '@react-native-community/checkbox';
 
 import Success from '../../assets/success.svg';
 import Error from '../../assets/error.svg';
@@ -55,15 +63,23 @@ LocaleConfig.defaultLocale = 'pt_br';
 
 const Home = () => {
   const {theme} = useTheme();
+  const windowWidth = Dimensions.get('window').width;
+
+  const restoreData = async () => {
+    console.log(`RESTORE DATA: ${await AsyncStorage.getItem('dataSave')}`);
+  };
+
   // open modalize when open home tab
   useEffect(() => {
     modalizeRef.current?.open();
+    restoreData();
   }, []);
 
   const DateActual = new Date();
   const [prayers, setPrayers] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [statusActivity, setStatusActivity] = useState(false);
+  const [toggleCheckBox, setToggleCheckBox] = useState(false);
 
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
@@ -120,7 +136,7 @@ const Home = () => {
     modalizeRef.current?.open();
   };
 
-  const newActivity = async () => {
+  const findActivities = async () => {
     // alert(`${todayDate} + ${actualMonth}`);
     setModalVisible(true);
 
@@ -135,20 +151,95 @@ const Home = () => {
     const json = await req.json();
 
     if (json) {
-      setPrayers(json.list);
+      let prayList = json.list.map(item => {
+        return {...item, isChecked: false};
+      });
+
+      setPrayers(prayList);
     }
   };
 
   const handleClickActivity = item => () => {
     setActivity(act => [...act, item.title]);
+    // savePrayerData();
   };
 
+  const savePrayerData = async () => {
+    const data = {
+      date: `${todayDate}-${actualMonth}`,
+      list: {
+        prayers: activity,
+      },
+    };
+
+    try {
+      // await AsyncStorage.removeItem('dataSave');
+      let res = await AsyncStorage.getItem('dataSave');
+      console.log(`SAVE PRAYER DATA: ${res}`);
+      let resObject = res ? JSON.parse(res) : [data];
+
+      let found = resObject.find(element => element.date === data.date);
+      console.log(found);
+      if (found) {
+        resObject.forEach((element, index) => {
+          console.log(index);
+          console.log(`${element.date} === ${data.date}`);
+          if (element.date === data.date) {
+            resObject[index] = data;
+            console.log('caiu no if');
+          }
+        });
+      } else {
+        resObject.push(data);
+      }
+
+      // if (indexOf === -1) {
+      //   // resObject.push(data);
+      // } else {
+      //   console.log(resObject[indexOf]);
+      // }
+
+      await AsyncStorage.setItem('dataSave', JSON.stringify(resObject));
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  // useEffect(() => {
+  //   savePrayerData();
+  // }, [activity]);
+
   const handleClickStatusActivity = () => {
-    setStatusActivity(true);
+    if (statusActivity === false) {
+      setStatusActivity(true);
+    } else {
+      setStatusActivity(false);
+    }
+    console.log(activity);
   };
 
   const handleClickAccessPrayer = item => () => {
     alert(`Você acessou a oração: ${item}`);
+  };
+
+  const verifyCheckbox = item => () => {
+    let newPrayers = prayers.map(prayer => {
+      if (item.id === prayer.id) {
+        return {...prayer, isChecked: !prayers.isChecked};
+      } else {
+        return {...prayer};
+      }
+    });
+    setPrayers(newPrayers);
+    // item.isChecked ? false : true;
+    console.log(item);
+    // if (activity.find(element => element.id === item.id)) {
+    //   handleClickActivity(item);
+    //   return true;
+    // } else {
+    //   return false;
+    // }
+    setActivity(act => [...act, item.title]);
   };
 
   return (
@@ -176,6 +267,11 @@ const Home = () => {
                     <S.ModalizeHeaderText onPress={handleClickActivity(item)}>
                       {item.title}
                     </S.ModalizeHeaderText>
+                    <CheckBox
+                      disabled={false}
+                      value={item.isChecked}
+                      onValueChange={verifyCheckbox(item)}
+                    />
                   </S.AreaBoxTitle>
                 </View>
               )}
@@ -225,7 +321,7 @@ const Home = () => {
             </S.ModalizeHeaderText>
 
             <S.NewActivityBtn style={{backgroundColor: theme.backgroundColor}}>
-              <S.NewActivityText onPress={newActivity}>
+              <S.NewActivityText onPress={findActivities}>
                 Nova atividade
               </S.NewActivityText>
             </S.NewActivityBtn>
@@ -233,7 +329,7 @@ const Home = () => {
         }>
         <S.ModalizeView>
           {activity.map(item => (
-            <S.TimelineView>
+            <S.TimelineView key={item.id}>
               <TouchableOpacity onPress={handleClickStatusActivity}>
                 {statusActivity === false && <Error />}
                 {statusActivity === true && <Success />}
