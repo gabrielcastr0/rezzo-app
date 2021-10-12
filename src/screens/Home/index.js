@@ -11,12 +11,14 @@ import {
   View,
   TouchableOpacity,
   Dimensions,
+  Text,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import CheckBox from '@react-native-community/checkbox';
 
 import Success from '../../assets/success.svg';
 import Error from '../../assets/error.svg';
+import ArrowCircle from '../../assets/arrow_right_circle.svg';
 
 LocaleConfig.locales.pt_br = {
   monthNames: [
@@ -66,13 +68,23 @@ const Home = () => {
   const windowWidth = Dimensions.get('window').width;
 
   const restoreData = async () => {
-    console.log(`RESTORE DATA: ${await AsyncStorage.getItem('dataSave')}`);
+    let datas = await AsyncStorage.getItem('dataSave');
+    let datasConverted = datas ? JSON.parse(datas) : [];
+    let result = datasConverted.find(
+      element => element.date === `${todayDate}-${actualMonth}`,
+    );
+
+    console.log(`Aqui2: ${datasConverted}`);
+    console.log(`Aqui: ${JSON.stringify(result.list.prayers)}`);
+
+    setActivity(result.list.prayers || []);
   };
 
   // open modalize when open home tab
   useEffect(() => {
     modalizeRef.current?.open();
     restoreData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const DateActual = new Date();
@@ -134,6 +146,7 @@ const Home = () => {
     setTodayDate(item.day);
     setActualMonth(item.month - 1);
     modalizeRef.current?.open();
+    restoreData();
   };
 
   const findActivities = async () => {
@@ -151,11 +164,11 @@ const Home = () => {
     const json = await req.json();
 
     if (json) {
-      let prayList = json.list.map(item => {
-        return {...item, isChecked: false};
-      });
+      // let prayList = json.list.map(item => {
+      //   return {...item, isChecked: false};
+      // });
 
-      setPrayers(prayList);
+      setPrayers(json.list);
     }
   };
 
@@ -173,7 +186,6 @@ const Home = () => {
     };
 
     try {
-      // await AsyncStorage.removeItem('dataSave');
       let res = await AsyncStorage.getItem('dataSave');
       console.log(`SAVE PRAYER DATA: ${res}`);
       let resObject = res ? JSON.parse(res) : [data];
@@ -205,6 +217,11 @@ const Home = () => {
     }
   };
 
+  // const combineFunctions = item => () => {
+  //   handleClickActivity(item);
+  //   savePrayerData();
+  // };
+
   // useEffect(() => {
   //   savePrayerData();
   // }, [activity]);
@@ -222,25 +239,25 @@ const Home = () => {
     alert(`Você acessou a oração: ${item}`);
   };
 
-  const verifyCheckbox = item => () => {
-    let newPrayers = prayers.map(prayer => {
-      if (item.id === prayer.id) {
-        return {...prayer, isChecked: !prayers.isChecked};
-      } else {
-        return {...prayer};
-      }
-    });
-    setPrayers(newPrayers);
-    // item.isChecked ? false : true;
-    console.log(item);
-    // if (activity.find(element => element.id === item.id)) {
-    //   handleClickActivity(item);
-    //   return true;
-    // } else {
-    //   return false;
-    // }
-    setActivity(act => [...act, item.title]);
-  };
+  // const verifyCheckbox = item => () => {
+  //   let newPrayers = prayers.map(prayer => {
+  //     if (item.id === prayer.id) {
+  //       return {...prayer, isChecked: !prayers.isChecked};
+  //     } else {
+  //       return {...prayer};
+  //     }
+  //   });
+  //   setPrayers(newPrayers);
+  //   // item.isChecked ? false : true;
+  //   console.log(item);
+  //   // if (activity.find(element => element.id === item.id)) {
+  //   //   handleClickActivity(item);
+  //   //   return true;
+  //   // } else {
+  //   //   return false;
+  //   // }
+  //   setActivity(act => [...act, item.title]);
+  // };
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
@@ -251,6 +268,18 @@ const Home = () => {
         onRequestClose={() => setModalVisible(false)}>
         <S.Box>
           <S.BoxBody>
+            <S.TitleTextArea>
+              <S.TitleText
+                style={{
+                  color: theme.textColor,
+                  borderColor: theme.textColor,
+                }}>
+                Lista de Orações
+              </S.TitleText>
+              <TouchableOpacity onPress={savePrayerData}>
+                <ArrowCircle />
+              </TouchableOpacity>
+            </S.TitleTextArea>
             <FlatList
               decelerationRate="fast"
               data={prayers}
@@ -264,19 +293,28 @@ const Home = () => {
                     alignItems: 'center',
                   }}>
                   <S.AreaBoxTitle>
-                    <S.ModalizeHeaderText onPress={handleClickActivity(item)}>
-                      {item.title}
-                    </S.ModalizeHeaderText>
-                    <CheckBox
+                    <S.PrayNameArea style={{borderColor: theme.textColor}}>
+                      <S.PrayNameText
+                        style={{color: theme.textColor}}
+                        onPress={handleClickActivity(item)}>
+                        {item.title}
+                      </S.PrayNameText>
+                    </S.PrayNameArea>
+                    {/* <CheckBox
                       disabled={false}
                       value={item.isChecked}
                       onValueChange={verifyCheckbox(item)}
-                    />
+                    /> */}
                   </S.AreaBoxTitle>
                 </View>
               )}
               keyExtractor={item => item.id}
             />
+            {/* <S.AccessPrayerBtn
+              onPress={savePrayerData}
+              style={{backgroundColor: theme.textColor}}>
+              <S.AccessPrayerText>Salvar</S.AccessPrayerText>
+            </S.AccessPrayerBtn> */}
           </S.BoxBody>
         </S.Box>
       </Modal>
@@ -329,7 +367,7 @@ const Home = () => {
         }>
         <S.ModalizeView>
           {activity.map(item => (
-            <S.TimelineView key={item.id}>
+            <S.TimelineView>
               <TouchableOpacity onPress={handleClickStatusActivity}>
                 {statusActivity === false && <Error />}
                 {statusActivity === true && <Success />}

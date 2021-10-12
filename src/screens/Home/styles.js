@@ -156,11 +156,11 @@ export default {
   `,
 
   AreaBoxTitle: styled.View`
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background-color: #fff;
     flex-direction: row;
     height: 32px;
-    width: 256px;
+    width: 300px;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
@@ -182,5 +182,34 @@ export default {
     padding: 15px;
     color: #fff;
     font-size: 20px;
+  `,
+
+  TitleTextArea: styled.View`
+    height: 50px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+  `,
+
+  TitleText: styled.Text`
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom-width: 3px;
+  `,
+
+  PrayNameArea: styled.View`
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom-width: 1px;
+  `,
+
+  PrayNameText: styled.Text`
+    font-size: 21px;
   `,
 };
