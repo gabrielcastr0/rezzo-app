@@ -7,11 +7,9 @@ import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
 import {Modal, FlatList, View, TouchableOpacity} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import CheckBox from '@react-native-community/checkbox';
 
 import Success from '../../assets/success.svg';
 import Error from '../../assets/error.svg';
-import ArrowCircle from '../../assets/arrow_right_circle.svg';
 import AddIcon from '../../assets/add.svg';
 
 LocaleConfig.locales.pt_br = {
@@ -57,7 +55,7 @@ LocaleConfig.locales.pt_br = {
 };
 LocaleConfig.defaultLocale = 'pt_br';
 
-const Home = () => {
+const Home = ({navigation}) => {
   const {theme} = useTheme();
 
   const restoreData = async () => {
@@ -88,8 +86,6 @@ const Home = () => {
   const DateActual = new Date();
   const [prayers, setPrayers] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
-  const [statusActivity, setStatusActivity] = useState(false);
-  const [toggleCheckBox, setToggleCheckBox] = useState(false);
 
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
@@ -161,10 +157,6 @@ const Home = () => {
     const json = await req.json();
 
     if (json) {
-      // let prayList = json.list.map(item => {
-      //   return {...item, isChecked: false};
-      // });
-
       setPrayers(json.list);
     }
   };
@@ -175,10 +167,10 @@ const Home = () => {
       {
         id: item.id,
         title: item.title,
+        body: item.body,
         wasRead: false,
       },
     ]);
-    // savePrayerData();
   };
 
   const savePrayerData = async () => {
@@ -210,58 +202,31 @@ const Home = () => {
         resObject.push(data);
       }
 
-      // if (indexOf === -1) {
-      //   // resObject.push(data);
-      // } else {
-      //   console.log(resObject[indexOf]);
-      // }
-
       await AsyncStorage.setItem('dataSave', JSON.stringify(resObject));
+      restoreData();
     } catch (err) {
       console.log(err);
     }
   };
-
-  // useEffect(() => {
-  //   savePrayerData();
-  // }, [activity]);
 
   const handleClickStatusActivity = item => () => {
     item.wasRead = !item.wasRead;
     setActivity(activity);
     savePrayerData();
     console.log(activity);
-    // if (statusActivity === false) {
-    //   setStatusActivity(true);
-    // } else {
-    //   setStatusActivity(false);
-    // }
-    // console.log(activity);
   };
 
   const handleClickAccessPrayer = item => () => {
-    alert(`Você acessou a oração: ${item}`);
+    item.wasRead = !item.wasRead;
+    setActivity(activity);
+    savePrayerData();
+    console.log(activity);
+    navigation.navigate('ReadScreen', {
+      id: item.id,
+      title: item.title,
+      body: item.body,
+    });
   };
-
-  // const verifyCheckbox = item => () => {
-  //   let newPrayers = prayers.map(prayer => {
-  //     if (item.id === prayer.id) {
-  //       return {...prayer, isChecked: !prayers.isChecked};
-  //     } else {
-  //       return {...prayer};
-  //     }
-  //   });
-  //   setPrayers(newPrayers);
-  //   // item.isChecked ? false : true;
-  //   console.log(item);
-  //   // if (activity.find(element => element.id === item.id)) {
-  //   //   handleClickActivity(item);
-  //   //   return true;
-  //   // } else {
-  //   //   return false;
-  //   // }
-  //   setActivity(act => [...act, item.title]);
-  // };
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
@@ -281,7 +246,7 @@ const Home = () => {
                 Lista de Orações
               </S.TitleText>
               <TouchableOpacity onPress={savePrayerData}>
-                <AddIcon fill="red" />
+                <AddIcon />
               </TouchableOpacity>
             </S.TitleTextArea>
             <FlatList
@@ -304,11 +269,6 @@ const Home = () => {
                         {item.title}
                       </S.PrayNameText>
                     </S.PrayNameArea>
-                    {/* <CheckBox
-                      disabled={false}
-                      value={item.isChecked}
-                      onValueChange={verifyCheckbox(item)}
-                    /> */}
                   </S.AreaBoxTitle>
                 </View>
               )}
@@ -364,7 +324,6 @@ const Home = () => {
           </S.ModalizeHeaderView>
         }>
         <S.ModalizeView>
-          {/* <S.TimelineText>{JSON.stringify(activity)}</S.TimelineText> */}
           {activity.map(item => (
             <S.TimelineView key={item.id}>
               <TouchableOpacity onPress={handleClickStatusActivity(item)}>
@@ -372,6 +331,7 @@ const Home = () => {
                 {item.wasRead === true && <Success />}
               </TouchableOpacity>
               <S.TimelineText>{item.title}</S.TimelineText>
+              <S.Line />
               <S.DivisionLine
                 style={{backgroundColor: theme.backgroundColor}}
               />

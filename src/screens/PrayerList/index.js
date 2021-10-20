@@ -16,6 +16,8 @@ const PrayerList = ({navigation}) => {
 
   const [loading, setLoading] = useState();
   const [prayers, setPrayers] = useState([]);
+  const [filterdData, setFilterdData] = useState([]);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     const handleLoadingButton = async () => {
@@ -32,6 +34,7 @@ const PrayerList = ({navigation}) => {
 
       if (json) {
         setPrayers(json.list);
+        setFilterdData(json.list);
       }
 
       setLoading(false);
@@ -40,8 +43,27 @@ const PrayerList = ({navigation}) => {
     handleLoadingButton();
   }, []);
 
+  const searchFilter = text => {
+    if (text) {
+      const newData = prayers.filter(item => {
+        const itemData = item.title
+          ? item.title.toUpperCase()
+          : ''.toUpperCase();
+        const textData = text.toUpperCase();
+        return itemData.indexOf(textData) > -1;
+      });
+
+      setFilterdData(newData);
+      setSearch(text);
+    } else {
+      setFilterdData(prayers);
+      setSearch(text);
+    }
+  };
+
   const goToReadScreen = item => () => {
     navigation.navigate('ReadScreen', {
+      id: item.id,
       title: item.title,
       body: item.body,
     });
@@ -58,6 +80,18 @@ const PrayerList = ({navigation}) => {
           </S.LoadingArea>
         )}
 
+        <S.SearchInput
+          value={search}
+          placeholder="PESQUISAR ORAÇÃO"
+          placeholderTextColor="#fff"
+          underlineColorAndroid="transparent"
+          onChangeText={text => searchFilter(text)}
+          style={{
+            backgroundColor: theme.textColor,
+            opacity: 0.8,
+          }}
+        />
+
         {!loading && (
           <S.TitleTextArea>
             <S.TitleText
@@ -69,7 +103,7 @@ const PrayerList = ({navigation}) => {
 
         {!loading && (
           <FlatList
-            data={prayers}
+            data={filterdData}
             bounces={false}
             renderItem={({item}) => (
               <View
@@ -88,7 +122,7 @@ const PrayerList = ({navigation}) => {
                 </S.PrayNameArea>
               </View>
             )}
-            keyExtractor={item => item.id}
+            keyExtractor={(item, index) => index.toString()}
           />
         )}
       </S.PlannerArea>

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Modal, Text} from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {useTheme} from '../../contexts/ThemeProvider';
 import S from './styles';

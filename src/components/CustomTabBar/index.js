@@ -2,6 +2,7 @@ import React from 'react';
 
 import S from './styles';
 import {useTheme} from '../../contexts/ThemeProvider';
+import {useKeyboard} from '@react-native-community/hooks';
 
 import HomeIcon from '../../assets/iconsTabBar/home.svg';
 import PrayIcon from '../../assets/iconsTabBar/pray.svg';
@@ -9,13 +10,14 @@ import ConfigIcon from '../../assets/iconsTabBar/config.svg';
 
 const TabBar = ({state, navigation}) => {
   const {theme} = useTheme();
+  const keyboard = useKeyboard();
 
   const goTo = screenName => {
     navigation.navigate(screenName);
   };
 
   return (
-    <S.Wrapper>
+    <S.Wrapper style={{bottom: keyboard.keyboardShown ? -70 : 0}}>
       <S.Container style={{backgroundColor: theme.nav.backgroundColor}}>
         <S.TabItem onPress={() => goTo('Home')}>
           <HomeIcon

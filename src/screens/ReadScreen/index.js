@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import S from './styled';
 import {useTheme} from '../../contexts/ThemeProvider';
 import {TouchableOpacity, ScrollView} from 'react-native';
@@ -7,26 +7,13 @@ import CustomBackgroundPrayerImage from '../../components/CustomBackgroundPrayer
 import Cancel from '../../assets/iconsReadScreen/cancel.svg';
 import List from '../../assets/iconsReadScreen/list.svg';
 
-// import Star from '../../assets/iconsReadScreen/star.svg';
-// import StarFull from '../../assets/iconsReadScreen/star_full.svg';
-// import ArrowRight from '../../assets/iconsReadScreen/arrow_right.svg';
-// import ArrowLeft from '../../assets/iconsReadScreen/arrow_left.svg';
-
 const ReadScreen = ({route, navigation}) => {
   const {theme} = useTheme();
   const {title, body} = route.params;
 
-  // const [loading, setLoading] = useState();
-  // const [prayers, setPrayers] = useState([]);
-  // const [favorite, setFavorite] = useState(false);
-
   const handleClickCancel = () => {
-    navigation.navigate('PrayerList');
+    navigation.navigate('Home');
   };
-
-  // const handleClickFavorite = () => {
-  //   setFavorite(true);
-  // };
 
   return (
     <S.Container style={{backgroundColor: theme.backgroundColor}}>
@@ -54,21 +41,6 @@ const ReadScreen = ({route, navigation}) => {
           </ScrollView>
         </S.AreaBody>
       </S.AreaPrayer>
-
-      {/* <S.BottomArea>
-        <TouchableOpacity>
-          <ArrowLeft />
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={handleClickFavorite}>
-          {favorite === false && <Star />}
-          {favorite === true && <StarFull />}
-        </TouchableOpacity>
-
-        <TouchableOpacity>
-          <ArrowRight />
-        </TouchableOpacity>
-      </S.BottomArea> */}
     </S.Container>
   );
 };

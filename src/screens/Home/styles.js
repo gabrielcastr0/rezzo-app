@@ -66,7 +66,7 @@ export default {
     /* background-color: pink; */
     align-items: center;
     flex-direction: row;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   `,
 
   TimelineText: styled.Text`
@@ -76,28 +76,14 @@ export default {
     color: #62af8a;
   `,
 
-  // TimelineInfoText: styled.Text`
-  //   font-size: 16px;
-  //   margin-bottom: 5px;
-  //   padding-left: 15px;
-  // `,
-
   Line: styled.View`
-    height: 50px;
+    height: 24px;
     width: 1px;
-    background-color: #707070;
+    background-color: #00000033;
     position: absolute;
     left: 7px;
-    top: 23px;
+    top: 20.8px;
   `,
-
-  // TimelineInfoArea: styled.View`
-  //   height: 50px;
-  //   width: 120px;
-  //   position: absolute;
-  //   bottom: -30px;
-  //   left: 20px;
-  // `,
 
   DivisionLine: styled.View`
     height: 30px;
