@@ -5,20 +5,14 @@ import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {
-  Modal,
-  FlatList,
-  View,
-  TouchableOpacity,
-  Dimensions,
-  Text,
-} from 'react-native';
+import {Modal, FlatList, View, TouchableOpacity} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import CheckBox from '@react-native-community/checkbox';
 
 import Success from '../../assets/success.svg';
 import Error from '../../assets/error.svg';
 import ArrowCircle from '../../assets/arrow_right_circle.svg';
+import AddIcon from '../../assets/add.svg';
 
 LocaleConfig.locales.pt_br = {
   monthNames: [
@@ -65,23 +59,27 @@ LocaleConfig.defaultLocale = 'pt_br';
 
 const Home = () => {
   const {theme} = useTheme();
-  const windowWidth = Dimensions.get('window').width;
 
   const restoreData = async () => {
     let datas = await AsyncStorage.getItem('dataSave');
+    console.log(`DATAS: ${datas}`);
     let datasConverted = datas ? JSON.parse(datas) : [];
     let result = datasConverted.find(
       element => element.date === `${todayDate}-${actualMonth}`,
     );
 
     console.log(`Aqui2: ${datasConverted}`);
-    console.log(`Aqui: ${JSON.stringify(result.list.prayers)}`);
+    console.log(`Aqui: ${JSON.stringify(result?.list?.prayers)}`);
 
-    setActivity(result.list.prayers || []);
+    let prayers = result?.list?.prayers || [];
+    console.log(`Prayers: ${prayers}`);
+
+    setActivity(prayers);
   };
 
   // open modalize when open home tab
   useEffect(() => {
+    console.log(activity);
     modalizeRef.current?.open();
     restoreData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -150,10 +148,9 @@ const Home = () => {
   };
 
   const findActivities = async () => {
-    // alert(`${todayDate} + ${actualMonth}`);
     setModalVisible(true);
 
-    const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
+    const req = await fetch('http://192.168.1.7:4000/api/prayers/', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -173,11 +170,19 @@ const Home = () => {
   };
 
   const handleClickActivity = item => () => {
-    setActivity(act => [...act, item.title]);
+    setActivity([
+      ...activity,
+      {
+        id: item.id,
+        title: item.title,
+        wasRead: false,
+      },
+    ]);
     // savePrayerData();
   };
 
   const savePrayerData = async () => {
+    setModalVisible(false);
     const data = {
       date: `${todayDate}-${actualMonth}`,
       list: {
@@ -191,14 +196,14 @@ const Home = () => {
       let resObject = res ? JSON.parse(res) : [data];
 
       let found = resObject.find(element => element.date === data.date);
-      console.log(found);
+      console.log(`Found: ${found}`);
       if (found) {
         resObject.forEach((element, index) => {
           console.log(index);
           console.log(`${element.date} === ${data.date}`);
           if (element.date === data.date) {
             resObject[index] = data;
-            console.log('caiu no if');
+            console.log('dia equivalente');
           }
         });
       } else {
@@ -217,22 +222,21 @@ const Home = () => {
     }
   };
 
-  // const combineFunctions = item => () => {
-  //   handleClickActivity(item);
-  //   savePrayerData();
-  // };
-
   // useEffect(() => {
   //   savePrayerData();
   // }, [activity]);
 
-  const handleClickStatusActivity = () => {
-    if (statusActivity === false) {
-      setStatusActivity(true);
-    } else {
-      setStatusActivity(false);
-    }
+  const handleClickStatusActivity = item => () => {
+    item.wasRead = !item.wasRead;
+    setActivity(activity);
+    savePrayerData();
     console.log(activity);
+    // if (statusActivity === false) {
+    //   setStatusActivity(true);
+    // } else {
+    //   setStatusActivity(false);
+    // }
+    // console.log(activity);
   };
 
   const handleClickAccessPrayer = item => () => {
@@ -277,7 +281,7 @@ const Home = () => {
                 Lista de Orações
               </S.TitleText>
               <TouchableOpacity onPress={savePrayerData}>
-                <ArrowCircle />
+                <AddIcon fill="red" />
               </TouchableOpacity>
             </S.TitleTextArea>
             <FlatList
@@ -310,11 +314,6 @@ const Home = () => {
               )}
               keyExtractor={item => item.id}
             />
-            {/* <S.AccessPrayerBtn
-              onPress={savePrayerData}
-              style={{backgroundColor: theme.textColor}}>
-              <S.AccessPrayerText>Salvar</S.AccessPrayerText>
-            </S.AccessPrayerBtn> */}
           </S.BoxBody>
         </S.Box>
       </Modal>
@@ -349,8 +348,7 @@ const Home = () => {
       <Modalize
         handlePosition="inside"
         ref={modalizeRef}
-        snapPoint={430}
-        modalHeight={800}
+        snapPoint={370}
         withOverlay={false}
         HeaderComponent={
           <S.ModalizeHeaderView>
@@ -366,13 +364,14 @@ const Home = () => {
           </S.ModalizeHeaderView>
         }>
         <S.ModalizeView>
+          {/* <S.TimelineText>{JSON.stringify(activity)}</S.TimelineText> */}
           {activity.map(item => (
-            <S.TimelineView>
-              <TouchableOpacity onPress={handleClickStatusActivity}>
-                {statusActivity === false && <Error />}
-                {statusActivity === true && <Success />}
+            <S.TimelineView key={item.id}>
+              <TouchableOpacity onPress={handleClickStatusActivity(item)}>
+                {item.wasRead === false && <Error />}
+                {item.wasRead === true && <Success />}
               </TouchableOpacity>
-              <S.TimelineText>{item}</S.TimelineText>
+              <S.TimelineText>{item.title}</S.TimelineText>
               <S.DivisionLine
                 style={{backgroundColor: theme.backgroundColor}}
               />

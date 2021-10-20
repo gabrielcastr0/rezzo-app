@@ -52,8 +52,6 @@ const ThemeProvider = ({children}) => {
   }, []);
 
   const updateTheme = themeValue => {
-    // AsyncStorage.clear();
-
     let newTheme = '';
 
     switch (themeValue) {

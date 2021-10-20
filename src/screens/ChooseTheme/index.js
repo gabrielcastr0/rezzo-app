@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import {Modal, Text, Dimensions} from 'react-native';
+import {Modal, Text} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {useTheme} from '../../contexts/ThemeProvider';
 import S from './styles';
@@ -14,10 +15,8 @@ const ChooseTheme = ({navigation}) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedTheme, setSelectedTheme] = useState('');
   const [theme, setTheme] = useState('');
-  const windowWidth = Dimensions.get('window').width;
-  const windowHeight = Dimensions.get('window').height;
 
-  const changeTheme = themeValue => {
+  const changeTheme = async themeValue => {
     updateTheme(themeValue);
     navigation.navigate('TabNavigator', {
       screen: 'Home',

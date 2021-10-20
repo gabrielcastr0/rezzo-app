@@ -20,7 +20,7 @@ const PrayerList = ({navigation}) => {
   useEffect(() => {
     const handleLoadingButton = async () => {
       setLoading(true);
-      const req = await fetch('http://192.168.100.18:4000/api/prayers/', {
+      const req = await fetch('http://192.168.1.7:4000/api/prayers/', {
         method: 'GET',
         headers: {
           Accept: 'application/json',
