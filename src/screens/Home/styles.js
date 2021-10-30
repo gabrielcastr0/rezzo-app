@@ -173,10 +173,10 @@ export default {
   TitleTextArea: styled.View`
     height: 50px;
     width: 300px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    margin-top: 10px;
+    flex-direction: column;
+    margin-top: 40px;
   `,
 
   TitleText: styled.Text`
@@ -197,5 +197,39 @@ export default {
 
   PrayNameText: styled.Text`
     font-size: 21px;
+  `,
+
+  SearchInput: styled.TextInput`
+    font-size: 13px;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 10px;
+    border-width: 1.5px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  `,
+
+  AreaSaveButton: styled.View`
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 25px;
+    width: 100%;
+    align-items: flex-end;
+  `,
+
+  SaveButton: styled.TouchableOpacity`
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-width: 1.5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+  `,
+
+  SaveButtonText: styled.Text`
+    font-size: 20px;
   `,
 };

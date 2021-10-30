@@ -60,13 +60,13 @@ export default {
 
   SearchInput: styled.TextInput`
     font-size: 13px;
+    font-weight: bold;
     height: 35px;
-    border-width: 1px;
+    border-width: 2px;
     padding-left: 20px;
     margin: 5px;
     border-color: #fff;
     color: #fff;
-    border-width: 1.5px;
     background-color: #fff;
     width: 300px;
     border-radius: 50px;

@@ -21,7 +21,7 @@ const Config = () => {
           style={{backgroundColor: theme.textColor}}
           onPress={resetTheme}>
           <S.ButtonText style={{color: theme.backgroundColor}}>
-            Resetar Configurações
+            Trocar Tema
           </S.ButtonText>
         </S.ButtonReset>
       </S.BoxButton>

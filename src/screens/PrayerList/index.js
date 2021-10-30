@@ -82,7 +82,7 @@ const PrayerList = ({navigation}) => {
 
         <S.SearchInput
           value={search}
-          placeholder="PESQUISAR ORAÇÃO"
+          placeholder="PESQUISAR ORAÇÃO..."
           placeholderTextColor="#fff"
           underlineColorAndroid="transparent"
           onChangeText={text => searchFilter(text)}

@@ -5,8 +5,9 @@ import CustomBackgroundImage from '../../components/CustomBackgroundImage';
 import {Calendar} from 'react-native-calendars';
 import {Modalize} from 'react-native-modalize';
 import {LocaleConfig} from 'react-native-calendars';
-import {Modal, FlatList, View, TouchableOpacity} from 'react-native';
+import {Modal, FlatList, View, TouchableOpacity, Text} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {useKeyboard} from '@react-native-community/hooks';
 
 import Success from '../../assets/success.svg';
 import Error from '../../assets/error.svg';
@@ -57,6 +58,7 @@ LocaleConfig.defaultLocale = 'pt_br';
 
 const Home = ({navigation}) => {
   const {theme} = useTheme();
+  const keyboard = useKeyboard();
 
   const restoreData = async () => {
     let datas = await AsyncStorage.getItem('dataSave');
@@ -86,6 +88,8 @@ const Home = ({navigation}) => {
   const DateActual = new Date();
   const [prayers, setPrayers] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
+  const [filterdData, setFilterdData] = useState([]);
+  const [search, setSearch] = useState('');
 
   let [todayDate, setTodayDate] = useState(DateActual.getDate());
   let [actualMonth, setActualMonth] = useState(DateActual.getMonth());
@@ -158,6 +162,7 @@ const Home = ({navigation}) => {
 
     if (json) {
       setPrayers(json.list);
+      setFilterdData(json.list);
     }
   };
 
@@ -171,6 +176,24 @@ const Home = ({navigation}) => {
         wasRead: false,
       },
     ]);
+  };
+
+  const searchFilter = text => {
+    if (text) {
+      const newData = prayers.filter(item => {
+        const itemData = item.title
+          ? item.title.toUpperCase()
+          : ''.toUpperCase();
+        const textData = text.toUpperCase();
+        return itemData.indexOf(textData) > -1;
+      });
+
+      setFilterdData(newData);
+      setSearch(text);
+    } else {
+      setFilterdData(prayers);
+      setSearch(text);
+    }
   };
 
   const savePrayerData = async () => {
@@ -236,7 +259,7 @@ const Home = ({navigation}) => {
         transparent={true}
         onRequestClose={() => setModalVisible(false)}>
         <S.Box>
-          <S.BoxBody>
+          <S.BoxBody style={{bottom: keyboard.keyboardShown ? -130 : 0}}>
             <S.TitleTextArea>
               <S.TitleText
                 style={{
@@ -245,13 +268,25 @@ const Home = ({navigation}) => {
                 }}>
                 Lista de Orações
               </S.TitleText>
-              <TouchableOpacity onPress={savePrayerData}>
+              <S.SearchInput
+                value={search}
+                placeholder="PESQUISAR ORAÇÃO..."
+                placeholderTextColor={theme.textColor}
+                underlineColorAndroid="transparent"
+                onChangeText={text => searchFilter(text)}
+                style={{
+                  borderColor: theme.textColor,
+                  opacity: 0.8,
+                  color: theme.textColor,
+                }}
+              />
+              {/* <TouchableOpacity onPress={savePrayerData}>
                 <AddIcon />
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </S.TitleTextArea>
             <FlatList
               decelerationRate="fast"
-              data={prayers}
+              data={filterdData}
               bounces={false}
               renderItem={({item}) => (
                 <View
@@ -274,6 +309,15 @@ const Home = ({navigation}) => {
               )}
               keyExtractor={item => item.id}
             />
+            <S.AreaSaveButton>
+              <S.SaveButton
+                style={{borderColor: theme.textColor}}
+                onPress={savePrayerData}>
+                <S.SaveButtonText style={{color: theme.textColor}}>
+                  Salvar
+                </S.SaveButtonText>
+              </S.SaveButton>
+            </S.AreaSaveButton>
           </S.BoxBody>
         </S.Box>
       </Modal>
